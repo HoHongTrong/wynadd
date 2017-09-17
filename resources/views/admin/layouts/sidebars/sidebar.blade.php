@@ -15,8 +15,8 @@
           <span class="menu-arrow arrow_carrot-right"></span>
         </a>
         <ul class="sub">
-          <li><a class="" href="#">Manager Courses</a></li>
-          <li><a class="" href="form_validation.html">Form Validation</a></li>
+          <li><a class="" href="{{route('ds-theloai')}}">Danh sách thể loại</a></li>
+          <li><a class="" href="{{route('them-theloai')}}">Thêm thể loại</a></li>
         </ul>
       </li>
       <li class="sub-menu">

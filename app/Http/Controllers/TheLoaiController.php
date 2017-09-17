@@ -34,9 +34,9 @@ class TheLoaiController extends Controller
       ]);
     $theloai = new TheLoai();
     $theloai->Ten = $request->Ten;
-    $theloai->TenKhongDau = changeTitle($request->Ten);
+//    $theloai->TenKhongDau = changeTitle($request->Ten);
     $theloai->save();
-    return redirect('admin/theloai/add')->with('thongbao', 'thêm thành công');
+    return redirect('them-theloai')->with('thongbao', 'thêm thành công');
   }
   //------------------End Add-------------
 

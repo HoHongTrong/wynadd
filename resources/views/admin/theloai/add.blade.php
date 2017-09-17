@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h1 class="page-header">Thể Loại
-            <small>thêm</small>
+            <small style="color: #2A3542">thêm</small>
           </h1>
         </div>
         <!-- /.col-lg-12 -->
@@ -27,7 +27,7 @@
             </div>
           @endif
 
-          <form action="admin/theloai/add" method="POST">
+          <form action="{{route('them-theloai')}}" method="POST">
             <input type="hidden" name="_token" value="{{csrf_token()}}"/>
 
             <div class="form-group">

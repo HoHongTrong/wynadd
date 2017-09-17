@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h1 class="page-header">Thể Loại
-            <small>Danh Sách</small>
+            <small style="color: #2A3542">Danh Sách</small>
           </h1>
         </div>
         <!-- /.col-lg-12 -->
