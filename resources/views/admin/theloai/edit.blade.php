@@ -5,8 +5,8 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header"> Sữa thể loại
-            <small>{{$theloai->Ten}}</small>
+          <h1 class="page-header"> Sửa thể loại
+            <small style="color: #b64c4c">{{$theloai->ten}}</small>
           </h1>
         </div>
         <!-- /.col-lg-12 -->
@@ -25,15 +25,15 @@
               {{session('thongbao')}}
             </div>
           @endif
-          <form action="admin/theloai/edit/{{$theloai->id}}" method="POST">
+          <form action="{{route('sua-theloai',['id'=>$theloai->id])}}" method="POST">
             <input type="hidden" name="_token" value="{{csrf_token()}}"/>
 
             <div class="form-group">
               <label>Tên Thể Loại</label>
-              <input class="form-control" name="Ten" placeholder="Điền tên thể loại" value="{{$theloai->Ten}}"/>
+              <input class="form-control" name="Ten" placeholder="Điền tên thể loại" value="{{$theloai->ten}}"/>
             </div>
 
-            <button type="submit" class="btn btn-default">Sữa</button>
+            <button type="submit" class="btn btn-default">Sửa</button>
             <button type="reset" class="btn btn-default">Reset</button>
           </form>
         </div>

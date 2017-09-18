@@ -5,8 +5,8 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header">Sữa loại tin
-            <small>{{$loaitin->Ten}}</small>
+          <h1 class="page-header">Sửa loại tin
+            <small style="color: #b64c4c">{{$loaitin->ten}}</small>
           </h1>
         </div>
         <!-- /.col-lg-12 -->
@@ -25,26 +25,26 @@
               {{session('thongbao')}}
             </div>
           @endif
-          <form action="admin/loaitin/edit/{{$loaitin->id}}" method="POST">
+          <form action="{{route('sua-loaitin',['id'=>$loaitin->id])}}" method="POST">
             <input type="hidden" name="_token" value="{{csrf_token()}}"/>
             <div class="form-group">
               <label>Thể loại</label>
               <select class="form-control" name="TheLoai">
                 @foreach($theloai as $thlo)
                   <option
-                    @if($loaitin->idTheLoai == $thlo->id)  {{--truyền đúng tên và id trước khi sữa--}}
+                    @if($loaitin->idtheloai == $thlo->id)  {{--truyền đúng tên và id trước khi sữa--}}
                     {{"selected"}}
                     @endif
-                    value="{{$thlo->id}}">{{$thlo->Ten}}</option>
+                    value="{{$thlo->id}}">{{$thlo->ten}}</option>
                 @endforeach
               </select>
             </div>
             <div class="form-group">
               <label>Tên loại tin</label>
-              <input class="form-control" name="Ten" placeholder="Sữa tên loại tin" value="{{$loaitin->Ten}}"/>
+              <input class="form-control" name="Ten" placeholder="Sữa tên loại tin" value="{{$loaitin->ten}}"/>
             </div>
 
-            <button type="submit" class="btn btn-default">Edit</button>
+            <button type="submit" class="btn btn-default">Sửa</button>
             <button type="reset" class="btn btn-default">Reset</button>
             </form>
         </div>

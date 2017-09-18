@@ -30,12 +30,12 @@
           @foreach($theloai as $tl)
             <tr class="odd gradeX" align="center">
               <td>{{$tl->id}}</td>
-              <td>{{$tl->Ten}}</td>
-              <td>{{$tl->TenKhongDau}}</td>
-              <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/theloai/delete/{{$tl->id}}">
+              <td>{{$tl->ten}}</td>
+              <td>{{$tl->tenkhongdau}}</td>
+              <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="{{route('xoa-theloai',['id' => $tl->id])}}">
                   Delete</a></td>
               <td class="center"><i class="fa fa-pencil fa-fw"></i> <a
-                  href="admin/theloai/edit/{{$tl->id}}">Edit</a></td>
+                  href="{{route('sua-theloai',['id' => $tl->id])}}">Edit</a></td>
             </tr>
           @endforeach
           </tbody>

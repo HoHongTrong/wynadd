@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class LoaiTin extends Model
 {
   protected $table = 'loaitins';
+  public  $timestamps = false;
 
   public function theloai(){
     return $this->belongsTo('App\TheLoai','idtheloai','id');

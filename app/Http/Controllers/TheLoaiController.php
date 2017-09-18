@@ -34,9 +34,9 @@ class TheLoaiController extends Controller
       ]);
     $theloai = new TheLoai();
     $theloai->Ten = $request->Ten;
-//    $theloai->TenKhongDau = changeTitle($request->Ten);
+    $theloai->TenKhongDau = changeTitle($request->Ten);
     $theloai->save();
-    return redirect('them-theloai')->with('thongbao', 'thêm thành công');
+    return redirect('them-theloai')->with('thongbao', 'thêm thể loại thành công');
   }
   //------------------End Add-------------
 
@@ -48,21 +48,23 @@ class TheLoaiController extends Controller
   }
   public function postEdit(Request $request,$id)
   {
+
     $theloai = TheLoai::find($id);
+
     $this->validate($request,
       [
-        'Ten'=>'required|unique:TheLoai,Ten|min:3|max:100'],
+        'Ten'=>'required|unique:theloais,ten|min:3|max:100'],
       [
         'Ten.required' => 'Bạn chưa nhập tên thể loại',
         'Ten.unique'=>'Tên đã tồn tại',
         'Ten.min' => 'Độ dài ít nhất 3 ký tự',
         'Ten.max' => 'Độ dài lớn nhất 100 ký tự'
       ]);
-    // tiến hành sữa
-    $theloai->Ten = $request->Ten;
-    $theloai->TenKhongDau = changeTitle($request->Ten);
+     //tiến hành sữa
+    $theloai->ten = $request->Ten;
+    $theloai->tenkhongdau = changeTitle($request->Ten);
     $theloai->save();
-    return redirect('admin/theloai/edit/'.$id)->with('thongbao','sữa thành công');
+    return redirect('sua-theloai/'.$id)->with('thongbao','sữa thành công');
   }
   //------------------End Edit----------------
 
@@ -70,6 +72,6 @@ class TheLoaiController extends Controller
   public function getDelete($id){
     $theloai = TheLoai::find($id);
     $theloai->delete();
-    return redirect('admin/theloai/list')->with('thongbao','xóa thành công');
+    return redirect('danhsach-theloai')->with('thongbao','xóa thành công');
   }
 }

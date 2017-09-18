@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class TheLoai extends Model
 {
   protected $table = 'theloais';
+  public  $timestamps = false;
 
   public function loaitin(){
     return $this->hasMany('App\LoaiTin','idtheloai','id');

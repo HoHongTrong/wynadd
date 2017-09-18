@@ -22,7 +22,7 @@ class LoaiTinController extends Controller {
   public function postAdd(Request $request) {
     $this->validate($request,
       [
-        'Ten'=>'required|unique:TheLoai,Ten|min:3|max:100'],
+        'Ten'=>'required|unique:theloais,ten|min:3|max:100'],
       [
         'Ten.required' => 'Bạn chưa tên loại tin',
         'Ten.unique'=>'Tên đã tồn tại',
@@ -31,11 +31,11 @@ class LoaiTinController extends Controller {
       ]);
 
     $loaitin = new LoaiTin;
-    $loaitin->Ten = $request->Ten;
-    $loaitin->TenKhongDau = changeTitle($request->Ten);
-    $loaitin->idTheLoai = $request->TheLoai;
+    $loaitin->ten = $request->Ten;
+    $loaitin->tenkhongdau = changeTitle($request->Ten);
+    $loaitin->idtheloai = $request->TheLoai;
     $loaitin->save();
-    return redirect('admin/loaitin/add')->with('thongbao','Thêm thành công');
+    return redirect('them-loaitin')->with('thongbao','Thêm loại tin thành công');
   }
 //---------------End Add----------------------------
 
@@ -49,7 +49,7 @@ class LoaiTinController extends Controller {
   public function postEdit(Request $request, $id) {
     $this->validate($request,
       [
-        'Ten' => 'required|unique:LoaiTin,Ten|min:3|max:100'
+        'Ten' => 'required|unique:loaitins,ten|min:3|max:100'
       ],
       [
         'Ten.required' => 'Bạn chưa nhập tên thể loại',
@@ -58,11 +58,11 @@ class LoaiTinController extends Controller {
         'Ten.max' => 'Độ dài lớn nhất 100 ký tự'
       ]);
     $loaitin = LoaiTin::find($id);
-    $loaitin->Ten = $request->Ten;
-    $loaitin->TenKhongDau = changeTitle($request->Ten);
-    $loaitin->idTheLoai = $request->TheLoai;
+    $loaitin->ten = $request->Ten;
+    $loaitin->tenkhongdau = changeTitle($request->Ten);
+    $loaitin->idtheloai = $request->TheLoai;
     $loaitin->save();
-    return redirect('admin/loaitin/edit/' . $id)->with('thongbao', 'sữa thành công');
+    return redirect('sua-loaitin/' . $id)->with('thongbao', 'sữa thành công');
   }
   //------------------End Edit----------------
 
@@ -71,6 +71,6 @@ class LoaiTinController extends Controller {
   public function getDelete($id) {
     $loaitin = LoaiTin::find($id);
     $loaitin->delete();
-    return redirect('admin/loaitin/list')->with('thongbao', 'xóa thành công');
+    return redirect('danhsach-loaitin')->with('thongbao', 'xóa thành công');
   }
 }
