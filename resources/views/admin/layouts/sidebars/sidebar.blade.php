@@ -37,8 +37,8 @@
           <span class="menu-arrow arrow_carrot-right"></span>
         </a>
         <ul class="sub">
-          <li><a class="" href="#">Danh sách tin tức</a></li>
-          <li><a class="" href="#">Thêm tin tức</a></li>
+          <li><a class="" href="{{route('ds-tintuc')}}">Danh sách tin tức</a></li>
+          <li><a class="" href="{{route('them-tintuc')}}">Thêm tin tức</a></li>
         </ul>
       </li>
 

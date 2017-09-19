@@ -79,6 +79,7 @@
 {!! Html::script('admin_asset/js/jquery.slimscroll.min.js') !!}
 
 @yield('script')
+<script type="text/javascript" language="javascript" src="admin_asset/ckeditor/ckeditor.js" ></script>
 <script>
 $(document).ready(function () {
   $.ajaxSetup({

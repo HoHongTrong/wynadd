@@ -1,4 +1,4 @@
-@extends('admin.layout.index')
+@extends('admin.layouts.master')
 @section('content')
 
   <!-- Page Content -->
@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h1 class="page-header">Tin Tức
-            <small>List</small>
+            <small style="color: #2A3542">danh sách</small>
           </h1>
         </div>
         <!-- /.col-lg-12 -->
@@ -35,24 +35,24 @@
             <tr class="odd gradeX" align="center">
               <td>{{$tt->id}}</td>
               <td>
-                <p>{{$tt->TieuDe}}</p>
-                <img width="100px" height="100px" src="upload/tintuc/{{$tt->Hinh}}"/>
+                <p>{{$tt->tieude}}</p>
+                <img width="100px" height="100px" src="upload/tintuc/{{$tt->hinh}}"/>
               </td>
-              <td>{{$tt->TomTat}}</td>
-              <td>{{$tt->loaitin->theloai->Ten}}</td>
-              <td>{{$tt->loaitin->Ten}}</td>
-              <td>{{$tt->SoLuotXem}}</td>
+              <td>{{$tt->tomtat}}</td>
+              <td>{{$tt->LoaiTin->theloai->ten}}</td>
+              <td>{{$tt->LoaiTin->ten}}</td>
+              <td>{{$tt->soluotxem}}</td>
               <td>
-                @if($tt->NoiBat == 0)
+                @if($tt->noibat == 0)
                   {{'không'}}
                 @else
                   {{'có'}}
                 @endif
               </td>
 
-              <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/tintuc/delete/{{$tt->id}}">
+              <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="{{route('xoa-tintuc',['id' => $tt->id])}}">
                   Delete</a></td>
-              <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/tintuc/edit/{{$tt->id}}">Edit</a>
+              <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="{{route('sua-tintuc',['id' =>$tt->id])}}">Edit</a>
               </td>
             </tr>
           @endforeach
