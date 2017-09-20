@@ -54,3 +54,17 @@ Route::get('sua-tintuc/{id}',['as'=>'sua-tintuc','uses'=>'TinTucController@getEd
 Route::post('sua-tintuc/{id}',['as'=>'sua-tintuc','uses'=>'TinTucController@postEdit']);
 
 Route::get('xoa-tintuc/{id}',['as'=>'xoa-tintuc','uses'=>'TinTucController@getDelete']);
+
+//============================== Slide===============================================
+Route::get('danhsach-slide',['as'=>'ds-slide','uses'=>'SlideController@getList']);
+
+Route::get('them-slide',['as'=>'them-slide','uses'=>'SlideController@getAdd']);
+Route::post('them-slide',['as'=>'them-slide','uses'=>'SlideController@postAdd']);
+
+Route::get('sua-slide/{id}',['as'=>'sua-slide','uses'=>'SlideController@getEdit']);
+Route::post('sua-slide/{id}',['as'=>'sua-slide','uses'=>'SlideController@postEdit']);
+
+Route::get('xoa-slide/{id}',['as'=>'xoa-slide','uses'=>'SlideController@getDelete']);
+
+//=============================== Fronend =====================================================
+Route::get('trangchu',function (){return view('pages.detail.trangchu');});

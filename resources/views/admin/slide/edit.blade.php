@@ -1,4 +1,4 @@
-@extends('admin.layout.index')
+@extends('admin.layouts.master')
 @section('content')
   <!-- Page Content -->
   <div id="page-wrapper">
@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h1 class="page-header">Slide
-            <small>{{$slide->Ten}}</small>
+            <small style="color: #b64c4c">{{$slide->ten}}</small>
           </h1>
         </div>
         <!-- /.col-lg-12 -->
@@ -27,16 +27,16 @@
           @endif
 
           {{-- enctype="multipart/form-data" dùng để upload hình lên --}}
-          <form action="admin/slide/edit/{{$slide->id}}" method="POST" enctype="multipart/form-data">
+          <form action="{{route('sua-slide',['id'=>$slide->id])}}" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="_token" value="{{csrf_token()}}"/>
             <div class="form-group">
               <label>Tên:</label>
-              <input class="form-control" name="Ten" placeholder="Nhập tên slide" value="{{$slide->Ten}}"/>
+              <input class="form-control" name="Ten" placeholder="Nhập tên slide" value="{{$slide->ten}}"/>
             </div>
             <div class="form-group">
               <label>Nội Dung</label>
               <textarea id="demo" name="NoiDung" class="form-control ckeditor" rows="2"
-                        value="{{$slide->NoiDung}}"></textarea>
+                        value="{{$slide->noidung}}"></textarea>
             </div>
             <div class="form-group">
               <label>Link:</label>
@@ -44,7 +44,7 @@
             </div>
             <div class="form-group">
               <label>Hình Ảnh</label>
-              <p><img width="500px" src="upload/slide/{{$slide->Hinh}}"/></p>
+              <p><img width="500px" src="upload/slide/{{$slide->hinh}}"/></p>
               <input type="file" name="Hinh"/>
             </div>
 

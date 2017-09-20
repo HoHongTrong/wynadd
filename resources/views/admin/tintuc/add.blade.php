@@ -74,7 +74,7 @@
               </label>
             </div>
 
-            <button type="submit" class="btn btn-default">Thêm</button>
+            <button type="submit" class="btn btn-default">Thêm tin tức</button>
             <button type="reset" class="btn btn-default">Reset</button>
           </form>
         </div>

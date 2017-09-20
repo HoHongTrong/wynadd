@@ -1,5 +1,4 @@
-@extends('admin.layout.index')
-
+@extends('admin.layouts.master')
 @section('content')
 <!-- Page Content -->
 <div id="page-wrapper">
@@ -7,7 +6,7 @@
     <div class="row">
       <div class="col-lg-12">
         <h1 class="page-header">Slide
-          <small>Thêm</small>
+          <small style="color: #2A3542">Thêm</small>
         </h1>
       </div>
       <!-- /.col-lg-12 -->
@@ -28,7 +27,7 @@
         @endif
 
         {{-- enctype="multipart/form-data" dùng để upload hình lên --}}
-        <form action="admin/slide/add" method="POST" enctype="multipart/form-data">
+        <form action="{{route('them-slide')}}" method="POST" enctype="multipart/form-data">
           <input type="hidden" name="_token" value="{{csrf_token()}}"/>
           <div class="form-group">
             <label>Tên:</label>
@@ -47,7 +46,7 @@
             <input type="file" name="Hinh"/>
           </div>
 
-          <button type="submit" class="btn btn-default">Add</button>
+          <button type="submit" class="btn btn-default">Thêm slide</button>
           <button type="reset" class="btn btn-default">Reset</button>
         </form>
       </div>

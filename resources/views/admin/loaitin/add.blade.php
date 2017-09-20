@@ -42,7 +42,7 @@
               <label>Tên loại tin</label>
               <input class="form-control" name="Ten" placeholder="Nhập tên loại tin"/>
             </div>
-            <button type="submit" class="btn btn-default">Thêm</button>
+            <button type="submit" class="btn btn-default">Thêm loại tin</button>
             <button type="reset" class="btn btn-default">Reset</button>
           </form>
         </div>

@@ -1,4 +1,4 @@
-@extends('admin.layout.index')
+@extends('admin.layouts.master')
 @section('content')
 
 <!-- Page Content -->
@@ -32,14 +32,14 @@
         @foreach($slide as $sd)
         <tr class="odd gradeX" align="center">
           <td>{{$sd->id}}</td>
-          <td>{{$sd->Ten}}</td>
-          <td>{{$sd->NoiDung}}</td>
+          <td>{{$sd->ten}}</td>
+          <td>{{$sd->noidung}}</td>
           <td>
-            <img width="400px" src="upload/slide/{{$sd->Hinh}}">
+            <img width="400px" src="upload/slide/{{$sd->hinh}}">
           </td>
           <td>{{$sd->link}}</td>
-          <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="admin/slide/delete/{{$sd->id}}"> Delete</a></td>
-          <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="admin/slide/edit/{{$sd->id}}">Edit</a></td>
+          <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="{{route('xoa-slide',['id'=>$sd->id])}}"> Delete</a></td>
+          <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="{{route('sua-slide',['id'=>$sd->id])}}">Edit</a></td>
         </tr>
           @endforeach
 
