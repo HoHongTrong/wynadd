@@ -63,10 +63,10 @@ class TinTucController extends Controller {
         $Hinh = str_random(4) . "_" . $name;
       }
       $file->move("upload/tintuc", $Hinh);//lưu hình
-      $tintuc->hinh = $Hinh;
+      $tintuc->Hinh = $Hinh;
     }
     else {
-      $tintuc->hinh = "";
+      $tintuc->Hinh = "";
     }
     $tintuc->save();
 
@@ -103,8 +103,8 @@ class TinTucController extends Controller {
     $tintuc->idloaitin = $request->LoaiTin;
     $tintuc->tomtat = $request->TomTat;
     $tintuc->noidung = $request->NoiDung;
-    if ($request->hasFile('hinh')) {
-      $file = $request->file('hinh');
+    if ($request->hasFile('Hinh')) {
+      $file = $request->file('Hinh');
       $duoi = $file->getClientOriginalExtension();
       if ($duoi !='jpg' && $duoi !='png' && $duoi !='gif' && $duoi !='tiff' && $duoi !='bmp')
       {
@@ -116,8 +116,8 @@ class TinTucController extends Controller {
         $Hinh = str_random(4) . "_" . $name;
       }
       $file->move("upload/tintuc", $Hinh);
-      @unlink('upload/tintuc/'.$tintuc->hinh);
-      $tintuc->hinh = $Hinh;
+      @unlink('upload/tintuc/'.$tintuc->Hinh);
+      $tintuc->Hinh = $Hinh;
     }
     $tintuc->save();
     return redirect('sua-tintuc/'.$id)->with('thongbao', 'sữa tin tức thành công');

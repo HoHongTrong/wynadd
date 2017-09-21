@@ -67,4 +67,5 @@ Route::post('sua-slide/{id}',['as'=>'sua-slide','uses'=>'SlideController@postEdi
 Route::get('xoa-slide/{id}',['as'=>'xoa-slide','uses'=>'SlideController@getDelete']);
 
 //=============================== Fronend =====================================================
-Route::get('trangchu',function (){return view('pages.detail.trangchu');});
+Route::get('trangchu',['as'=>'trangchu','uses'=>'PagesController@trangchu']);
+Route::get('lienhe',['as'=>'lienhe','uses'=>'PagesController@lienhe']);

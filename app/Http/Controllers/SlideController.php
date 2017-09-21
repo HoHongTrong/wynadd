@@ -34,8 +34,8 @@ class SlideController extends Controller {
     if ($request->has('link')) {
       $slide->link = $request->link;
     }
-    if ($request->hasFile('hinh')) {
-      $file = $request->file('hinh');
+    if ($request->hasFile('Hinh')) {
+      $file = $request->file('Hinh');
       $duoi = $file->getClientOriginalExtension();
       if ($duoi !='jpg' && $duoi !='png' && $duoi !='gif' && $duoi !='tiff' && $duoi !='bmp') {
         return redirect('them-slide')->with('thongbao', 'ban chỉ được nhập jpg, png, gif, tiff, bmp');
@@ -46,10 +46,10 @@ class SlideController extends Controller {
         $Hinh = str_random(4) . "_" . $name;
       }
       $file->move("upload/slide", $Hinh);
-      $slide->hinh = $Hinh;
+      $slide->Hinh = $Hinh;
     }
     else {
-      $slide->hinh = "";
+      $slide->Hinh = "";
     }
     $slide->save();
     return redirect('them-slide')->with('thongbao', 'Thêm slide thành công');
@@ -79,8 +79,8 @@ class SlideController extends Controller {
     if ($request->has('link')) {
       $slide->link = $request->link;
     }
-    if ($request->hasFile('hinh')) {
-      $file = $request->file('hinh');
+    if ($request->hasFile('Hinh')) {
+      $file = $request->file('Hinh');
       $duoi = $file->getClientOriginalExtension();
       if ($duoi !='jpg' && $duoi !='png' && $duoi !='gif' && $duoi !='tiff' && $duoi !='bmp') {
         return redirect('them-slide')->with('thongbao', 'ban chỉ được nhập jpg, png, gif, tiff, bmp');
@@ -91,8 +91,8 @@ class SlideController extends Controller {
         $Hinh = str_random(4) . "_" . $name;
       }
       $file->move("upload/slide", $Hinh);
-      unlink('upload/slide/'.$slide->hinh);
-      $slide->hinh = $Hinh;
+      unlink('upload/slide/'.$slide->Hinh);
+      $slide->Hinh = $Hinh;
     }
     $slide->save();
     return redirect('sua-slide/'.$id)->with('thongbao', 'Sữa slide thành công');

@@ -56,7 +56,7 @@
 <body>
 <div class="box-wrap">
 @include('pages.layout.header')
-
+  <br>
 @yield('content')
 @include('pages.layout.footer')
 </div>

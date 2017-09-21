@@ -5,13 +5,15 @@
   <div class="container">
     <div class="row animate-box">
       <div class="col-md-8 col-md-offset-2 text-center heading-section" style="position: relative; top: 80px">
-        <h3>Welcome to Narrow</h3>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <h3>Welcome to Wynads</h3>
+        <p>Chúng tôi có 15 năm kinh nghiệm về thiết kế đồ họa và đặc biệt là gần 6 năm kinh nghiệp làm phim hoạt hình Nhật bản. Chúng tôi cực kỳ tự hào vì điều này vì khi nói về giá trị nghệ thuật thì chỉ có Nhật Bản là đứng đầu trên thế giới.
+
+          Chúng tôi tin tưởng sẽ luôn là người đồng hành đáng tin cậy trên bước đường thành công của thương hiệu.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-7 animate-box">
-        <div class="fh5co-cover" style="background-image: url(images/work-1.jpg);">
+        <div class="fh5co-cover" style="">
           <div class="desc">
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             <span>Web Design</span>

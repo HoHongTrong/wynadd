@@ -19,7 +19,7 @@ class CreateTintucsTable extends Migration
           $table->string('tieudekhongdau');
           $table->text('tomtat');
           $table->longText('noidung');
-          $table->string('hinh');
+          $table->string('Hinh');
           $table->integer('noibat')->default(0);
           $table->integer('soluotxem')->default(0);
           $table->integer('idloaitin')->unsigned();
