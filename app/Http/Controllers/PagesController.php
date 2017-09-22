@@ -29,9 +29,11 @@ class PagesController extends Controller {
   public function trangchu() {
     return view('pages.detail.trangchu');
   }
-
   public function lienhe() {
     return view('pages.detail.lienhe');
+  }
+  public function gioithieu(){
+    return view('pages.detail.gioithieu');
   }
 
   public function loaitin($id) {

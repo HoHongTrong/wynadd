@@ -1,61 +1,42 @@
-<!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="trangchu">Wynadd</a>
+<!--========== HEADER ==========-->
+<header class="header navbar-fixed-top">
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="menu-container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="toggle-icon"></span>
+        </button>
+
+        <!-- Logo -->
+        <div class="logo">
+          <a class="logo-wrap" href="{{route('trangchu')}}">
+            <img  src="img/logo-tc.png" alt="Asentus Logo">
+            {{--<img class="logo-img logo-img-active" src="img/logo-tc.png" alt="Asentus Logo">--}}
+          </a>
+        </div>
+        <!-- End Logo -->
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse nav-collapse">
+        <div class="menu-container">
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="{{route('trangchu')}}">Trang chủ</a></li>
+            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="{{route('gioithieu')}}">Giới thiệu</a></li>
+            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="about.html">Dịch vụ</a></li>
+            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="products.html">hoạt động</a></li>
+            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">Giá trị thương hiệu</a></li>
+            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="{{route('lienhe')}}">Liên hệ</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Navbar Collapse -->
     </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li>
-          <a href="gioithieu">Giới thiệu</a>
-        </li>
-        <li>
-          <a href="lienhe">Liên hệ</a>
-        </li>
-      </ul>
+  </nav>
+  <!-- Navbar -->
+</header>
 
-      {{--<form action="timkiem" class="navbar-form navbar-left" role="search" method="post">--}}
-        {{--<input type="hidden" name="_token" value="{{csrf_token()}}"/>--}}
-        {{--<div class="form-group">--}}
-          {{--<input type="text" class="form-control" placeholder="Search" name="tukhoa">--}}
-        {{--</div>--}}
-        {{--<button type="submit" class="btn btn-default">Tìm</button>--}}
-      {{--</form>--}}
-
-      {{--<ul class="nav navbar-nav pull-right">--}}
-
-        {{--@if(!isset($nguoidung))--}}
-          {{--<li>--}}
-            {{--<a href="dangky">Đăng ký</a>--}}
-          {{--</li>--}}
-          {{--<li>--}}
-            {{--<a href="dangnhap">Đăng nhập</a>--}}
-          {{--</li>--}}
-        {{--@else--}}
-          {{--<li>--}}
-            {{--<a href="nguoidung">--}}
-              {{--<span class="glyphicon glyphicon-user"></span>--}}
-              {{--{{$nguoidung->name}}--}}
-            {{--</a>--}}
-          {{--</li>--}}
-
-          {{--<li>--}}
-            {{--<a href="dangxuat">Đăng xuất</a>--}}
-          {{--</li>--}}
-        {{--@endif--}}
-      {{--</ul>--}}
-    </div>
-
-
-    <!-- /.navbar-collapse -->
-  </div>
-  <!-- /.container -->
-</nav>
+<!--========== END HEADER ==========-->
