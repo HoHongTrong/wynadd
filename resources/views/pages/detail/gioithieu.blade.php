@@ -2,7 +2,7 @@
 @section('content')
 
 
-<!--========== PARALLAX ==========-->
+<!--========== PARALLAX ==========-->4
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
   <div class="parallax-content container">
     <h1 class="carousel-title">Wynads</h1>
@@ -18,38 +18,43 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row" id="customaa" >
     <div class="col-sm-7 sm-margin-b-50" >
       <div class="margin-b-30" >
-        <p>Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố trình bày văn bản. Lorem Ipsum có ưu điểm hơn so với đoạn văn bản chỉ gồm nội dung kiểu “Nội dung, nội dung, nội dung” là nó khiến văn bản giống thật hơn, bình thường hơn. Nhiều phần mềm thiết kế</p>
-      </div>
+        <p style="color: #111111">Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố trình bày văn bản. Lorem Ipsum có ưu điểm hơn so với đoạn văn bản chỉ gồm nội dung kiểu “Nội dung, nội dung, nội dung” là nó khiến văn bản giống thật hơn, bình thường hơn. Nhiều phần mềm thiết kế</p>
+      </div >
+
       <h5>Sứ Mệnh</h5>
-      <p>Tạo nên các sản phẩm nghệ thuật sáng tạo, tác phẩm tranh sơn dầu, màu nước.</p>
-      <p>Thiết kê logo.</p>
-      <p>Sáng tác câu Slogan.</p>
-      <p>Bộ nhận dạng thương hiệu.</p>
-      <p>Thiết kế baner cho web, facebook.</p>
-      <p>Phim quảng cáo 3D</p>
-      <p>Sáng tạo ra những giá trị thương hiệu thiết thực gắn liền với xúc cảm khách hàng với sản phẩm dịch vụ.</p>
-      <p>Giúp thương hiệu của khách trở nên vững mạnh, không những ở trong nước mà còn vững bước ra thị trường thế giới hiện đại.</p>
-      <p>Luôn sáng tại, nghiên cứu và học hỏi để trở thành điểm tựa nâng bước thương hiệu Việt.</p>
-      <p>Theo giá trị vĩnh hằng chúng tôi luôn nguyện cho khách hàng thành công.</p>
+      <p style="color: #111111">Tạo nên các sản phẩm nghệ thuật sáng tạo, tác phẩm tranh sơn dầu, màu nước.
+      Thiết kê logo. <br>
+      Sáng tác câu Slogan. <br>
+      Bộ nhận dạng thương hiệu.<br>
+      Thiết kế baner cho web, facebook.<br>
+      Phim quảng cáo 3D.<br>
+      Sáng tạo ra những giá trị thương hiệu thiết thực gắn liền với xúc cảm khách hàng với sản phẩm dịch vụ.<br>
+      Giúp thương hiệu của khách trở nên vững mạnh, không những ở trong nước mà còn vững bước ra thị trường thế giới hiện đại.<br>
+      Luôn sáng tại, nghiên cứu và học hỏi để trở thành điểm tựa nâng bước thương hiệu Việt.<br>
+      Theo giá trị vĩnh hằng chúng tôi luôn nguyện cho khách hàng thành công.<br>
       <br>
       <h5>Tầm Nhìn</h5>
-      <p>Năm 2020, sẽ trở thành một công ty thiết kế và làm phim quảng cáo thương hiệu uy tín, lớn mạnh nhì trên thị trường, đồng phát triển dịch vụ tư vấn chiến lược cho từng thương hiệu.</p>
-      <p>Đồng thời sẽ mở văn phòng đại diện tại các thành phố lớn trực thuộc trung ương  trên đất nước  như  là : Hà Nội, Hải Phòng, Đà Nẵng, Tp.HCM, Cần thơ và DakLak(Quê mẹ).</p>
+      <p>Năm 2020, sẽ trở thành một công ty thiết kế và làm phim quảng cáo thương hiệu uy tín, lớn mạnh nhì trên thị trường, đồng phát triển dịch vụ tư vấn chiến lược cho từng thương hiệu.<br>
+      Đồng thời sẽ mở văn phòng đại diện tại các thành phố lớn trực thuộc trung ương  trên đất nước  như  là : Hà Nội, Hải Phòng, Đà Nẵng, Tp.HCM, Cần thơ và DakLak(Quê mẹ).<br>
       <h5>Giá Trị Cốt Lõi</h5>
-      <p>Những điều mà QYNAD tự hào nhất nằm ở giá trị tinh thần mà các thành viên trong công ty luôn coi trọng và phát huy không ngừng:</p>
+      Những điều mà QYNAD tự hào nhất nằm ở giá trị tinh thần mà các thành viên trong công ty luôn coi trọng và phát huy không ngừng:<br>
       <li>Đạo đức</li>
       <li>Nghệ Thuật</li>
       <li>Sáng tạo</li>
       <li>Tận tâm</li>
       <li>Chuyên nghiệp</li>
       <br>
-      <p>Chúng tôi có 15 năm kinh nghiệm về thiết kế đồ họa và đặc biệt là gần 6 năm kinh nghiệp làm phim hoạt hình Nhật bản. Chúng tôi cực kỳ tự hào vì điều này vì khi nói về giá trị nghệ thuật thì chỉ có Nhật Bản là đứng đầu trên thế giới.</p>
-      <p>Chúng tôi tin tưởng sẽ luôn là người đồng hành đáng tin cậy trên bước đường thành công của thương hiệu.</p>
-      <p>Chúng tôi tin vào giá trị cốt lõi vĩnh hằng và với đạo đức tu luyện hằng ngày của mình để đem</p>
-      <p>đến GIÁ TRỊ THƯƠNG HIỆU – NGUYỆN CHO KHÁCH HÀNG THÀNH CÔNG.</p>
+      </p>
+      <p style="color: #111111">
+        Chúng tôi có 15 năm kinh nghiệm về thiết kế đồ họa và đặc biệt là gần 6 năm kinh nghiệp làm phim hoạt hình Nhật bản.
+        Chúng tôi cực kỳ tự hào vì điều này vì khi nói về giá trị nghệ thuật thì chỉ có Nhật Bản là đứng đầu trên thế giới.
+        Chúng tôi tin tưởng sẽ luôn là người đồng hành đáng tin cậy trên bước đường thành công của thương hiệu.
+        Chúng tôi tin vào giá trị cốt lõi vĩnh hằng và với đạo đức tu luyện hằng ngày của mình để đem
+        đến GIÁ TRỊ THƯƠNG HIỆU – NGUYỆN CHO KHÁCH HÀNG THÀNH CÔNG.</p>
+
 
 
     </div>

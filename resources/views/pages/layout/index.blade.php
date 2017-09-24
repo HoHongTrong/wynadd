@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
 <head>
   <meta charset="utf-8"/>
-  <title>Metronic "Asentus" Frontend Freebie</title>
+  <title>WynAds</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <meta content="" name="description"/>
@@ -13,6 +13,7 @@
   {!! Html::style('css/animate.css') !!}
   {!! Html::style('vendor/swiper/css/swiper.min.css') !!}
   {!! Html::style('css/layout.min.css') !!}
+  {!! Html::style('css/hht.css') !!}
   <link rel="shortcut icon" href="favicon.ico"/>
 </head>
 <body>

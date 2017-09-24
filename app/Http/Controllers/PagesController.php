@@ -35,6 +35,9 @@ class PagesController extends Controller {
   public function gioithieu(){
     return view('pages.detail.gioithieu');
   }
+  public function dichvu(){
+
+  }
 
   public function loaitin($id) {
     $loaitin = LoaiTin::find($id);

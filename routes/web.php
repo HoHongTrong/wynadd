@@ -70,3 +70,4 @@ Route::get('xoa-slide/{id}',['as'=>'xoa-slide','uses'=>'SlideController@getDelet
 Route::get('trangchu',['as'=>'trangchu','uses'=>'PagesController@trangchu']);
 Route::get('lienhe',['as'=>'lienhe','uses'=>'PagesController@lienhe']);
 Route::get('gioithieu',['as'=>'gioithieu','uses'=>'PagesController@gioithieu']);
+Route::get('dichvu',['as'=>'dichvu','uses'=>'PagesController@dichvu']);

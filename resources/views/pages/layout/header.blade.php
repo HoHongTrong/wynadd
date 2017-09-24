@@ -26,9 +26,16 @@
           <ul class="navbar-nav navbar-nav-right">
             <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="{{route('trangchu')}}">Trang chủ</a></li>
             <li class="nav-item"><a class="nav-item-child nav-item-hover" href="{{route('gioithieu')}}">Giới thiệu</a></li>
-            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="about.html">Dịch vụ</a></li>
+            <li class="nav-item">
+              <a class="nav-item-child nav-item-hover" href="{{route('dichvu')}}">Dịch vụ</a>
+              <ul id="sub-menu">
+                 @foreach($theloai as $tl)
+                  <li>{{$tl->ten}}</li>
+                  @endforeach
+              </ul>
+            </li>
             <li class="nav-item"><a class="nav-item-child nav-item-hover" href="products.html">hoạt động</a></li>
-            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">Giá trị thương hiệu</a></li>
+            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="http://giatrithuonghieu.net/">Giá trị thương hiệu</a></li>
             <li class="nav-item"><a class="nav-item-child nav-item-hover" href="{{route('lienhe')}}">Liên hệ</a></li>
           </ul>
         </div>
