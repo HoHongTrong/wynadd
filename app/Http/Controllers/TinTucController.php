@@ -108,7 +108,7 @@ class TinTucController extends Controller {
       $duoi = $file->getClientOriginalExtension();
       if ($duoi !='jpg' && $duoi !='png' && $duoi !='gif' && $duoi !='tiff' && $duoi !='bmp')
       {
-        return redirect('them-tintuc')->with('thongbao', 'ban chỉ được nhập jpg, png, gif, tiff, bmp');
+        return redirect('sua-tintuc')->with('thongbao', 'ban chỉ được nhập jpg, png, gif, tiff, bmp');
       }
       $name = $file->getClientOriginalName();
       $Hinh = str_random(4) . "_" . $name;

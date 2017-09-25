@@ -24,6 +24,7 @@ class CreateTintucsTable extends Migration
           $table->integer('soluotxem')->default(0);
           $table->integer('idloaitin')->unsigned();
           $table->foreign('idloaitin')->references('id')->on('loaitins');
+          $table->timestamps();
 
         });
     }

@@ -36,7 +36,7 @@ class PagesController extends Controller {
     return view('pages.detail.gioithieu');
   }
   public function dichvu(){
-
+    return view('pages.detail.dichvu');
   }
 
   public function loaitin($id) {

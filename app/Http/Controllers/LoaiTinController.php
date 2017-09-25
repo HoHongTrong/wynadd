@@ -62,7 +62,7 @@ class LoaiTinController extends Controller {
     $loaitin->tenkhongdau = changeTitle($request->Ten);
     $loaitin->idtheloai = $request->TheLoai;
     $loaitin->save();
-    return redirect('sua-loaitin/' . $id)->with('thongbao', 'sữa thành công');
+    return redirect('ds-loaitin')->with('thongbao', 'sữa loại tin thành công');
   }
   //------------------End Edit----------------
 
@@ -71,6 +71,6 @@ class LoaiTinController extends Controller {
   public function getDelete($id) {
     $loaitin = LoaiTin::find($id);
     $loaitin->delete();
-    return redirect('danhsach-loaitin')->with('thongbao', 'xóa thành công');
+    return redirect('danhsach-loaitin')->with('thongbao', 'xóa loại tin thành công');
   }
 }

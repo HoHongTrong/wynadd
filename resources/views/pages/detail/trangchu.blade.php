@@ -5,43 +5,51 @@
   <!-- Service -->
   <div class="bg-color-sky-light" data-auto-height="true">
     <div class="content-lg container">
+      <div class="row margin-b-40">
+        <div class="col-sm-6">
+          <h2>Dịch vụ Wyndas cung cấp</h2>
+        </div>
+      </div>
       <div class="row row-space-1 margin-b-2">
-        <div class="col-sm-4 sm-margin-b-2">
+
+        <div class="col-sm-4 sm-margin-b-2" style="background-color: #00aced">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-chemistry"></i>
               </div>
               <div class="service-info">
-                <h3>Art Of Coding</h3>
-                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                <h3>Thiết kế LoGo NameCard theo phong thuy</h3>
+                <p class="margin-b-5">Bạn là công ty/doanh nghiệp mới bạn cần có một logo chuyên nghiệp ....</p>
               </div>
-              <a href="#" class="content-wrapper-link"></a>
+              <a href="logo-phong-thuy" class="content-wrapper-link"></a>
             </div>
           </div>
         </div>
-        <div class="col-sm-4 sm-margin-b-2">
+
+        <div class="col-sm-4 sm-margin-b-2" style="background-color: red">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-screen-tablet"></i>
               </div>
               <div class="service-info">
-                <h3>Responsive Design</h3>
-                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                <h3>Giải pháp thương hiệu</h3>
+                <p class="margin-b-5">Một thiết kế logo chuyên nghiệp, một tên thương hiệu dễ nhớ ấn tượng, một slogan nói đúng giá trị ....</p>
               </div>
-              <a href="#" class="content-wrapper-link"></a>
+              <a href="giai-phap-thuong-hieu" class="content-wrapper-link"></a>
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+
+        <div class="col-sm-4" style="background-color: yellow">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-badge"></i>
               </div>
               <div class="service-info">
-                <h3>Feature Reach</h3>
+                <h3>Video InTro</h3>
                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
               </div>
               <a href="#" class="content-wrapper-link"></a>
@@ -51,52 +59,55 @@
       </div>
       <!--// end row -->
 
-      <div class="row row-space-1">
-        <div class="col-sm-4 sm-margin-b-2">
+      <div class="row row-space-1" >
+        <div class="col-sm-4 sm-margin-b-2" style="background-color: #2ac845">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-notebook"></i>
               </div>
               <div class="service-info">
-                <h3>Useful Documentation</h3>
-                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                <h3>Đăng kí bảo hộ độc quyền</h3>
+                <p class="margin-b-5"><b>Quy trình đăng ký một nhãn hiệu sản phẩm</b> là một quy trình kéo dài 12-14 tháng
+                  theo Luật Sở hữu trí tuệ Việt Nam, ....</p>
               </div>
-              <a href="#" class="content-wrapper-link"></a>
+              <a href="dang-ki-bao-ho-doc-quyen" class="content-wrapper-link"></a>
             </div>
           </div>
         </div>
-        <div class="col-sm-4 sm-margin-b-2">
+
+        <div class="col-sm-4 sm-margin-b-2" style="background-color: #00aced">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-speedometer"></i>
               </div>
               <div class="service-info">
-                <h3>Fast Delivery</h3>
+                <h3>Phim hoạt hình quản cáo 2D,3D</h3>
                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
               </div>
               <a href="#" class="content-wrapper-link"></a>
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
-          <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">
-            <div class="service" data-height="height">
-              <div class="service-element">
-                <i class="service-icon icon-badge"></i>
-              </div>
-              <div class="service-info">
-                <h3>Free Plugins</h3>
-                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-              </div>
-              <a href="#" class="content-wrapper-link"></a>
-            </div>
-          </div>
-        </div>
+
+        {{--<div class="col-sm-4">--}}
+          {{--<div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">--}}
+            {{--<div class="service" data-height="height">--}}
+              {{--<div class="service-element">--}}
+                {{--<i class="service-icon icon-badge"></i>--}}
+              {{--</div>--}}
+              {{--<div class="service-info">--}}
+                {{--<h3>Free Plugins</h3>--}}
+                {{--<p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>--}}
+              {{--</div>--}}
+              {{--<a href="#" class="content-wrapper-link"></a>--}}
+            {{--</div>--}}
+          {{--</div>--}}
+        {{--</div>--}}
       </div>
-      <!--// end row -->
     </div>
+      <!--// end row -->
   </div>
   <!-- End Service -->
 
@@ -104,51 +115,38 @@
   <div class="content-lg container">
     <div class="row margin-b-40">
       <div class="col-sm-6">
-        <h2>Latest Products</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+        <h2>sự kiện cùng Wyndas</h2>
       </div>
     </div>
     <!--// end row -->
 
     <div class="row">
+    @foreach($theloai as $tl)
       <!-- Latest Products -->
-      <div class="col-sm-4 sm-margin-b-50">
-        <div class="margin-b-20">
-          <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+        <div class="col-sm-4 sm-margin-b-50">
+          <?php
+          $data = $tl->tintuc->where('noibat', 1)->take(3);
+          //lấy ra một giá trị $data
+          $tin1 = $data->shift();
+          ?>
+          <div class="margin-b-20">
+            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+              <a href="tintuc/{{$tin1['id']}}/{{$tin1['TieuDeKhongDau']}}.html">
+                <img width="360px" height="240px" class="img-responsive" src="upload/tintuc/{{$tin1['Hinh']}}" alt="">
+              </a>
+            </div>
           </div>
-        </div>
-        <h4><a href="#">Triangle Roof</a> <span class="text-uppercase margin-l-20">Management</span></h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-        <a class="link" href="#">Read More</a>
-      </div>
-      <!-- End Latest Products -->
+          <h4>
 
-      <!-- Latest Products -->
-      <div class="col-sm-4 sm-margin-b-50">
-        <div class="margin-b-20">
-          <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-            <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
-          </div>
+            <a href="tintuc/{{$tin1['id']}}/{{$tin1['TieuDeKhongDau']}}.html">{{$tl->ten}}</a>
+            @foreach($tl->loaitin as $lt)
+            <span class="text-uppercase margin-l-20">{{$lt->ten}}</span>
+              <p>{{$tin1['tomtat']}}</p>
+            @endforeach
+          </h4>
+          <a class="link" href="tintuc/{{$tin1['id']}}/{{$tin1['TieuDeKhongDau']}}.html">Xem thêm</a>
         </div>
-        <h4><a href="#">Curved Corners</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-        <a class="link" href="#">Read More</a>
-      </div>
-      <!-- End Latest Products -->
-
-      <!-- Latest Products -->
-      <div class="col-sm-4 sm-margin-b-50">
-        <div class="margin-b-20">
-          <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-            <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">
-          </div>
-        </div>
-        <h4><a href="#">Bird On Green</a> <span class="text-uppercase margin-l-20">Design</span></h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-        <a class="link" href="#">Read More</a>
-      </div>
-      <!-- End Latest Products -->
+        @endforeach
     </div>
     <!--// end row -->
   </div>
@@ -200,10 +198,12 @@
             <div class="swiper-slide">
               <blockquote class="blockquote">
                 <div class="margin-b-20">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna
+                  aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
                 </div>
                 <div class="margin-b-20">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor incididunt dolore magna consequat siad minim aliqua.
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor
+                  incididunt dolore magna consequat siad minim aliqua.
                 </div>
                 <p><span class="fweight-700 color-link">Joh Milner</span>, Metronic Customer</p>
               </blockquote>
@@ -211,10 +211,13 @@
             <div class="swiper-slide">
               <blockquote class="blockquote">
                 <div class="margin-b-20">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                  laborum.
                 </div>
                 <div class="margin-b-20">
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
                 </div>
                 <p><span class="fweight-700 color-link">Alex Clarson</span>, Metronic Customer</p>
               </blockquote>
@@ -232,66 +235,6 @@
   </div>
   <!-- End Testimonials -->
 
-  <!-- Pricing -->
-  <div class="bg-color-sky-light">
-    <div class="content-lg container">
-      <div class="row row-space-1">
-        <div class="col-sm-4 sm-margin-b-2">
-          <!-- Pricing -->
-          <div class="pricing">
-            <div class="margin-b-30">
-              <i class="pricing-icon icon-chemistry"></i>
-              <h3>Starter Kit <span> - $</span> 49</h3>
-              <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-            </div>
-            <ul class="list-unstyled pricing-list margin-b-50">
-              <li class="pricing-list-item">Basic Features</li>
-              <li class="pricing-list-item">Up to 5 products</li>
-              <li class="pricing-list-item">50 Users Panels</li>
-            </ul>
-            <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-          </div>
-          <!-- End Pricing -->
-        </div>
-        <div class="col-sm-4 sm-margin-b-2">
-          <!-- Pricing -->
-          <div class="pricing pricing-active">
-            <div class="margin-b-30">
-              <i class="pricing-icon icon-badge"></i>
-              <h3>Professional <span> - $</span> 149</h3>
-              <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-            </div>
-            <ul class="list-unstyled pricing-list margin-b-50">
-              <li class="pricing-list-item">Basic Features</li>
-              <li class="pricing-list-item">Up to 100 products</li>
-              <li class="pricing-list-item">100 Users Panels</li>
-            </ul>
-            <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-          </div>
-          <!-- End Pricing -->
-        </div>
-        <div class="col-sm-4">
-          <!-- Pricing -->
-          <div class="pricing">
-            <div class="margin-b-30">
-              <i class="pricing-icon icon-shield"></i>
-              <h3>Advanced <span> - $</span> 249</h3>
-              <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-            </div>
-            <ul class="list-unstyled pricing-list margin-b-50">
-              <li class="pricing-list-item">Extended Features</li>
-              <li class="pricing-list-item">Unlimited products</li>
-              <li class="pricing-list-item">Unlimited Users Panels</li>
-            </ul>
-            <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-          </div>
-          <!-- End Pricing -->
-        </div>
-      </div>
-      <!--// end row -->
-    </div>
-  </div>
-  <!-- End Pricing -->
 
   <!-- Promo Section -->
   <div class="promo-section overflow-h">
@@ -301,8 +244,11 @@
           <div class="ver-center-aligned">
             <div class="promo-section-col">
               <h2>Our Clients</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-              <p>Ipsum dolor sit amet consectetur adipiscing elit sed tempor incididut ut sead laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna
+                aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing elit sed tempor
+                incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+              <p>Ipsum dolor sit amet consectetur adipiscing elit sed tempor incididut ut sead laboret dolore magna
+                aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing</p>
             </div>
           </div>
         </div>
@@ -320,7 +266,8 @@
       <div class="row margin-b-40">
         <div class="col-sm-6">
           <h2>Showcase</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua
+            enim minim veniam exercitation</p>
         </div>
       </div>
       <!--// end row -->
@@ -405,4 +352,4 @@
   <!-- End Work -->
   <!--========== END PAGE LAYOUT ==========-->
 
-  @endsection
+@endsection

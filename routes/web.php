@@ -71,3 +71,13 @@ Route::get('trangchu',['as'=>'trangchu','uses'=>'PagesController@trangchu']);
 Route::get('lienhe',['as'=>'lienhe','uses'=>'PagesController@lienhe']);
 Route::get('gioithieu',['as'=>'gioithieu','uses'=>'PagesController@gioithieu']);
 Route::get('dichvu',['as'=>'dichvu','uses'=>'PagesController@dichvu']);
+Route::get('logo-phong-thuy',function (){
+  return view('pages.detail.logophongthuy');
+});
+Route::get('giai-phap-thuong-hieu',function (){
+  return view('pages.detail.giaiphapthuonghieu');
+});
+Route::get('dang-ki-bao-ho-doc-quyen',function (){
+  return view('pages.detail.dkbaoho');
+});
+
