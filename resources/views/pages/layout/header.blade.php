@@ -13,7 +13,7 @@
         <!-- Logo -->
         <div class="logo">
           <a class="logo-wrap" href="{{route('trangchu')}}">
-            <img  src="img/logo-tc.png" alt="Asentus Logo">
+            <img src="img/logo-tc.png" alt="Asentus Logo">
             {{--<img class="logo-img logo-img-active" src="img/logo-tc.png" alt="Asentus Logo">--}}
           </a>
         </div>

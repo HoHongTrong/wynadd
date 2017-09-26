@@ -7,35 +7,54 @@
     <div class="parallax-content container">
       <h1 class="carousel-title">Wynads</h1>
       <p style="color:yellow"><b>Hotline : Ms.Hau 0904.192028</b></p>
-      <h1 style="color: white">Thiết kế LoGo NameCard theo phong thủy</h1>
+      <h1 style="color: white">PHIM HOẠT HÌNH QUẢNG CÁO SẢN PHẨM 2D,3D</h1>
     </div>
   </div>
 
   <div class="content-lg container">
     <div class="row margin-b-20">
       <div class="col-sm-6">
-        <h1>LoGo NameCard Phong Thủy</h1>
+        <h1>Video 2D 3D</h1>
       </div>
     </div>
 
     <div class="row" id="customaa" >
       <div class="col-sm-7 sm-margin-b-50" >
         <div class="margin-b-30" >
-          <p style="color: #111111">Bạn là công ty/doanh nghiệp mới bạn cần có một logo chuyên nghiệp để bắt đầu cho việc kinh doanh của mình.<br>
+          <img src="img/1920x1080/video-hoat-hinh.jpg">
+          <p style="color: #111111">
+            - Thiết kế video quảng cáo hoạt hình phối hợp với video thường để nâng cao hiệu quả quảng cáo, truyền thông.<br><br>
 
-            - Nếu bạn đã có <b >thiết kế logo </b >nhưng đã không còn phù hợp để đại diện cho doanh nghiệp của bạn, bạn cần <b>một nơi thiết kế chuyên nghiệp và phải am hiểu về thị trường và thương hiệu </b>để giúp bạn xây dựng và phát triển hình ảnh thương hiệu.<br><br>
+          <b>Tại sao bạn cần thiết kế video quảng cáo hoạt hình?</b><br><br>
+            - Video là xu hướng của marketing của những năm gần đây, đặc biệt là hiện nay video marketing đang đạy hiệu quả cao nhất trong các loại hình để đạt mục đích marketing đến với khách hàng tiềm năng.<br><br>
+            - Có video sẽ tăng hiệu quả marketing của doanh nghiệp, sản phẩm lên gấp nhiều lần.<br><br>
+            - Video hoạt hình sẽ nổi bật lên trên tất cả các tính năng, giá trị của sản phẩm mà bạn muốn giới thiệu, thu hút được sự chú ý của khách hàng mục tiêu lớn nhất cũng như  những người chỉ mới quan tâm, hoặc chỉ muốn xem video nói về cái gì.<br><br>
+            - Ưu điểm của chúng rất đáng được tận dụng để bắt kịp thị trường và vượt xa đối thủ cạnh tranh với giá cả thấp hơn nhiều so với làm video quảng cáo thông thường.<br><br>
+          </p>
+          <ul>
+          <li>Hình ảnh đồ họa đẹp mắt, ấn tượng, dễ dàng tạo hình bất cứ nhân vật nào,theo ý tưởng của khách hàng và người thiết kế.</li>
+            <li>Dễ dàng xây dựng và thay đổi các nhân vật, kịch bản mà không ảnh hưởng tới quá trình sản xuất nhiều, có thể thay đổi nhân vật, nội dung cần truyền tải mà không phải tốn kém thời gian tiền của nhiều như quay tại hiện trường.</li>
+            <li>Không cần dựng trường quay, không cần thuê người nổi tiếng…</li>
+            <li>Hiệu quả sản xuất cao, gây ấn tượng mạnh mẽ với khách hàng, giúp tăng doanh thu cho doanh nghiệp từ 200-300%. Tăng 500 % lượng khách hàng quay trở lại với dịch vụ của bạn</li>
+            <li>Giúp quảng bá thương hiệu của bạn một cách tốt nhất, hiệu quả nhất.</li>
+          </ul>
 
-            Và nếu bạn đang cần cho ra đời <b>một sản phẩm tuyệt vời và tâm huyết</b>, chắc chắn bạn cần một thiết kế sáng tạo từ một công ty thiết kế logo để phát triển chứ không thể giao đứa con tinh thần của mình cho dịch vụ in ấn giá rẻ làm được, vì bạn biết nhiều thương hiệu chết yểu thế nào rồi đấy.<br><br>
+          - Dịch vụ sản xuất phim hoạt hình 2D, sản xuất các dạng motion graphic video, marketing video, giới thiệu nội dung của WynAds….đáp ứng các yêu cầu của các đơn vị quảng cáo, truyền thông, marketing.<br><br>
+          - Với hình ảnh thiết kế ấn tượng, đường nét tinh xảo, sắc nét, thể hiện được hồn nhân vật trong các chi tiết chuyển động mềm mại, khéo léo.
+          WynAds sẽ  là đối tác lý tưởng của các bạn. Chúng tôi có đội ngũ chuyên gia làm chuyển động(animation) cũng như họa sĩ vẽ.
+          Hình ảnh đã kết hợp tuyệt vời cùng hiệu ứng âm thanh, tạo nên những giây phút phim hoạt hình vô cùng ấn tượng và hấp dẫn khách hàng.<br><br>
 
-            Công ty cổ phần thiết kế <b>WynAds</b> sẽ là nơi bạn tin tưởng vì <b>họ sẽ cùng bạn nghiên cứu từ thị trường kinh doanh đến tâm linh phong thủy</b> để đưa ra 1 thiết kế chuyên nghiệp phù hợp với sản phẩm của bạn cũng nhiều tâm huyết như bạn với sản phẩm của mình.
-
-            Dịch vụ thiết kế logo của <b>WynAds</b> là giải pháp bạn đang tìm kiếm với <b>một quy trình chuyên nghiệp và chi phí phù hợp nhất.</b></p>
+          <img src="img/1920x1080/video-hoat-hình-quang-cao.jpg"><br><br>
+          <b>Ai là người cần dùng đến thiết kế video hoạt hình trong  quảng cáo?</b><br>
+          - Bất cứ đơn vị nào cần có những giây phút video chất lượng phục vụ mục đích quảng cáo, truyền thông, hoặc tạo nội dung cho website.<br><br>
+          - Các đối tác khách hàng của WynAds đến từ mọi loại hình kinh doanh.<br><br>
+          - Chúng tôi có những đối tác là tập đoàn ngân hàng lớn, chuyên nghiệp, muốn làm quảng cáo, hay truyền thông nội bộ có dùng đến hoạt hình.<br><br>
+          - Cũng có những đối tác là các công ty tầm trung, cần làm các đoạn phim quảng cáo TVC ngắn từ 15-30 giây, hoặc dài đến 2 phút. Và các cá nhân muốn có các thước phim hoạt hình ngắn để làm công cụ kinh doanh.<br><br>
         </div >
       </div>
       <div class="col-sm-4 col-sm-offset-1">
         <img class="img-responsive" src="img/logonho.jpg" alt="Our Office">
       </div>
-      <img src="img/640x380/namcard-phong-thuy-768x543.jpg">
       <br>
       <br>
       ===================================================================================================
@@ -118,29 +137,13 @@
               </div>
               <div class="service-info">
                 <h3>Phim hoạt hình quản cáo 2D,3D</h3>
-                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                <p class="margin-b-5">Thiết kế video quảng cáo hoạt hình phối hợp với video thường để nâng cao hiệu quả quảng cáo, truyền thông. ...</p>
               </div>
               <a href="video-2d-3d" class="content-wrapper-link"></a>
             </div>
           </div>
         </div>
-
-        {{--<div class="col-sm-4">--}}
-        {{--<div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">--}}
-        {{--<div class="service" data-height="height">--}}
-        {{--<div class="service-element">--}}
-        {{--<i class="service-icon icon-badge"></i>--}}
-        {{--</div>--}}
-        {{--<div class="service-info">--}}
-        {{--<h3>Free Plugins</h3>--}}
-        {{--<p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>--}}
-        {{--</div>--}}
-        {{--<a href="#" class="content-wrapper-link"></a>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-        {{--</div>--}}
       </div>
-      <!--// end row -->
     </div>
   </div>
   <!-- End Service -->

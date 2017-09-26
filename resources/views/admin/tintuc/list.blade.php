@@ -22,8 +22,6 @@
             <th>ID</th>
             <th>Tiêu Đề</th>
             <th>Tóm Tắt</th>
-            <th>Thể Loại</th>
-            <th>Loại Tin</th>
             <th>Xem</th>
             <th>Nổi Bật</th>
             <th>Delete</th>
@@ -39,8 +37,6 @@
                 <img width="100px" height="100px" src="upload/tintuc/{{$tt->Hinh}}"/>
               </td>
               <td>{{$tt->tomtat}}</td>
-              <td>{{$tt->LoaiTin->theloai->ten}}</td>
-              <td>{{$tt->LoaiTin->ten}}</td>
               <td>{{$tt->soluotxem}}</td>
               <td>
                 @if($tt->noibat == 0)

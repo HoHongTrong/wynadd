@@ -8,6 +8,7 @@
       <div class="row margin-b-40">
         <div class="col-sm-6">
           <h2>Dịch vụ Wyndas cung cấp</h2>
+          <p style="color:red"><b>Hotline : Ms.Hau 0904.192028</b></p>
         </div>
       </div>
       <div class="row row-space-1 margin-b-2">
@@ -19,7 +20,7 @@
                 <i class="service-icon icon-chemistry"></i>
               </div>
               <div class="service-info">
-                <h3>Thiết kế LoGo NameCard theo phong thuy</h3>
+                <h3>Thiết kế LoGo NameCard theo phong thủy</h3>
                 <p class="margin-b-5">Bạn là công ty/doanh nghiệp mới bạn cần có một logo chuyên nghiệp ....</p>
               </div>
               <a href="logo-phong-thuy" class="content-wrapper-link"></a>
@@ -50,9 +51,9 @@
               </div>
               <div class="service-info">
                 <h3>Video InTro</h3>
-                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                <p class="margin-b-5">- Một video giới thiệu về công ty hay giới thiệu một website nào đó nếu có đoạn mở đầu ấn tượng thì sẽ có khả năng thu hút người xem rất cao....</p>
               </div>
-              <a href="#" class="content-wrapper-link"></a>
+              <a href="video-intro" class="content-wrapper-link"></a>
             </div>
           </div>
         </div>
@@ -84,30 +85,14 @@
               </div>
               <div class="service-info">
                 <h3>Phim hoạt hình quản cáo 2D,3D</h3>
-                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+                <p class="margin-b-5">Quy trình đăng ký một nhãn hiệu sản phẩm là một quy trình kéo dài 12-14 tháng theo Luật Sở hữu trí tuệ Việt Nam, LHD với 10 năm kinh nghiệm và</p>
               </div>
-              <a href="#" class="content-wrapper-link"></a>
+              <a href="video-2d-3d" class="content-wrapper-link"></a>
             </div>
           </div>
         </div>
-
-        {{--<div class="col-sm-4">--}}
-          {{--<div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">--}}
-            {{--<div class="service" data-height="height">--}}
-              {{--<div class="service-element">--}}
-                {{--<i class="service-icon icon-badge"></i>--}}
-              {{--</div>--}}
-              {{--<div class="service-info">--}}
-                {{--<h3>Free Plugins</h3>--}}
-                {{--<p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>--}}
-              {{--</div>--}}
-              {{--<a href="#" class="content-wrapper-link"></a>--}}
-            {{--</div>--}}
-          {{--</div>--}}
-        {{--</div>--}}
       </div>
     </div>
-      <!--// end row -->
   </div>
   <!-- End Service -->
 
@@ -115,38 +100,29 @@
   <div class="content-lg container">
     <div class="row margin-b-40">
       <div class="col-sm-6">
-        <h2>sự kiện cùng Wyndas</h2>
+        <h2>Hoạt động cùng Wyndas</h2>
+        <p style="color:red"><b>Hotline : Ms.Hau 0904.192028</b></p>
       </div>
     </div>
     <!--// end row -->
 
     <div class="row">
-    @foreach($theloai as $tl)
+    @foreach($tintuc as $tt)
       <!-- Latest Products -->
         <div class="col-sm-4 sm-margin-b-50">
-          <?php
-          $data = $tl->tintuc->where('noibat', 1)->take(3);
-          //lấy ra một giá trị $data
-          $tin1 = $data->shift();
-          ?>
           <div class="margin-b-20">
             <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-              <a href="tintuc/{{$tin1['id']}}/{{$tin1['TieuDeKhongDau']}}.html">
-                <img width="360px" height="240px" class="img-responsive" src="upload/tintuc/{{$tin1['Hinh']}}" alt="">
-              </a>
+              <a href="tintuc/{{$tt['id']}}/{{$tt['tieudekhongdau']}}.html">
+                <img width="360px" height="240px" class="img-responsive" src="upload/tintuc/{{$tt['Hinh']}}" alt=""></a>
             </div>
           </div>
-          <h4>
-
-            <a href="tintuc/{{$tin1['id']}}/{{$tin1['TieuDeKhongDau']}}.html">{{$tl->ten}}</a>
-            @foreach($tl->loaitin as $lt)
-            <span class="text-uppercase margin-l-20">{{$lt->ten}}</span>
-              <p>{{$tin1['tomtat']}}</p>
-            @endforeach
-          </h4>
-          <a class="link" href="tintuc/{{$tin1['id']}}/{{$tin1['TieuDeKhongDau']}}.html">Xem thêm</a>
+          <h4><a href="tintuc/{{$tt['id']}}/{{$tt['tieudekhongdau']}}.html">{{$tt->tieude}}</a> <span class="text-uppercase margin-l-20">Tin Tức WYNADS</span></h4>
+          <p>{{$tt->tomtat}}</p>
+          <a class="link" href="tintuc/{{$tt['id']}}/{{$tt['tieudekhongdau']}}.html">Xem thêm</a>
         </div>
-        @endforeach
+        <!-- End Latest Products -->
+      @endforeach
+
     </div>
     <!--// end row -->
   </div>
@@ -234,7 +210,7 @@
     <!--// end row -->
   </div>
   <!-- End Testimonials -->
-
+  
 
   <!-- Promo Section -->
   <div class="promo-section overflow-h">
@@ -255,7 +231,7 @@
       </div>
     </div>
     <div class="promo-section-img-right">
-      <img class="img-responsive" src="img/970x970/01.jpg" alt="Content Image">
+      <img height="1000pxs" class="img-responsive" src="img/970x970/banner2.jpg" alt="Content Image">
     </div>
   </div>
   <!-- End Promo Section -->

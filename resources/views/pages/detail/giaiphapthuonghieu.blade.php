@@ -6,6 +6,7 @@
   <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
     <div class="parallax-content container">
       <h1 class="carousel-title">Wynads</h1>
+      <p style="color:yellow"><b>Hotline : Ms.Hau 0904.192028</b></p>
       <h1 style="color: white">Giải pháp thương hiệu</h1>
     </div>
   </div>
@@ -31,7 +32,7 @@
         </div >
       </div>
       <div class="col-sm-4 col-sm-offset-1">
-        <img class="img-responsive" src="img/640x380/01.jpg" alt="Our Office">
+        <img class="img-responsive" src="img/logonho.jpg" alt="Our Office">
       </div>
       <img src="img/640x380/giai-phap-thuong-hieu-wynads-768x466.jpg">
       <br>
@@ -54,7 +55,7 @@
                 <i class="service-icon icon-chemistry"></i>
               </div>
               <div class="service-info">
-                <h3>Thiết kế LoGo NameCard theo phong thuy</h3>
+                <h3>Thiết kế LoGo NameCard theo phong thủy</h3>
                 <p class="margin-b-5">Bạn là công ty/doanh nghiệp mới bạn cần có một logo chuyên nghiệp ....</p>
               </div>
               <a href="logo-phong-thuy" class="content-wrapper-link"></a>
@@ -85,7 +86,7 @@
                 <h3>Video InTro</h3>
                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
               </div>
-              <a href="#" class="content-wrapper-link"></a>
+              <a href="video-intro" class="content-wrapper-link"></a>
             </div>
           </div>
         </div>
@@ -118,7 +119,7 @@
                 <h3>Phim hoạt hình quản cáo 2D,3D</h3>
                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
               </div>
-              <a href="#" class="content-wrapper-link"></a>
+              <a href="video-2d-3d" class="content-wrapper-link"></a>
             </div>
           </div>
         </div>

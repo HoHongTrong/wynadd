@@ -30,22 +30,6 @@
           <form action="{{route('them-tintuc')}}" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="_token" value="{{csrf_token()}}"/>
             <div class="form-group">
-              <label>Thể loại :</label>
-              <select class="form-control" name="TheLoai" id="TheLoai">
-                @foreach($theloai as $tl)
-                  <option value="{{$tl->id}}">{{$tl->ten}}</option>
-                @endforeach
-              </select>
-            </div>
-            <div class="form-group">
-              <label>Loại tin :</label>
-              <select class="form-control" name="LoaiTin" id="LoaiTin">
-                @foreach($loaitin as $lti)
-                  <option value="{{$lti->id}}">{{$lti->ten}}</option>
-                @endforeach
-              </select>
-            </div>
-            <div class="form-group">
               <label>Tiêu đề :</label>
               <input class="form-control" name="TieuDe" placeholder="Nhập tiêu đề"/>
             </div>

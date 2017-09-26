@@ -18,8 +18,10 @@ class PagesController extends Controller {
   function __construct() {
     $theloai = TheLoai::all();
     $slide = Slide::all();
+    $tintuc = TinTuc::orderBy('id','desc')->take(3)->get();
     view()->share('theloai', $theloai);
     view()->share('slide', $slide);
+    view()->share('tintuc', $tintuc);
 
 //    if (Auth::check()) {
 //      view()->share('nguoidung', Auth::user());
@@ -27,6 +29,7 @@ class PagesController extends Controller {
   }
 
   public function trangchu() {
+
     return view('pages.detail.trangchu');
   }
   public function lienhe() {
@@ -47,18 +50,13 @@ class PagesController extends Controller {
 
   public function tintuc($id) {
     $tintuc = TinTuc::find($id);
-    $tinnoibat = TinTuc::where('NoiBat', 1)
+    $tinnoibat = TinTuc::orderBy('id','desc')
       ->take(4)
       ->get();
-    $tinlienquan = TinTuc::where('idLoaiTin', $tintuc->idLoaiTin)
-      ->take(4)
-      ->get();
-
-    return view('pages.tintuc',
+    return view('pages.detail.tintuc',
       [
         'tintuc' => $tintuc,
         'tinnoibat' => $tinnoibat,
-        'tinlienquan' => $tinlienquan
       ]);
   }
 

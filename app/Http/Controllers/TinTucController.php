@@ -19,24 +19,18 @@ class TinTucController extends Controller {
 
 //-------------------Add-------------------------
   public function getAdd() {
-    $theloai = TheLoai::all();
-    $loaitin = LoaiTin::all();
-    return view('admin.tintuc.add', [
-      'theloai' => $theloai,
-      'loaitin' => $loaitin
-    ]);
+    return view('admin.tintuc.add');
   }
 
   public function postAdd(Request $request) {
     $this->validate($request,
       [
-        'LoaiTin' => 'required',
+
         'TieuDe' => 'required|min:3|unique:tintucs,tieude',/*unique:TinTuc,TieuDe tên bảng,trường*/
         'TomTat' =>'required',
         'NoiDung' =>'required',
       ],
       [
-        'LoaiTin.required' => 'Bạn chưa nhập tên thể loại',
         'TieuDe.required' => 'Bạn chưa nhập tiêu đề',
         'TieuDe.min' => 'Độ dài ít nhất 3 ký tự',
         'TieuDe.unique' => 'Trùng tiêu đề',
@@ -46,7 +40,6 @@ class TinTucController extends Controller {
     $tintuc = new TinTuc();
     $tintuc->tieude = $request->TieuDe;
     $tintuc->tieudekhongdau = changeTitle($request->TieuDe);
-    $tintuc->idloaitin = $request->LoaiTin;
     $tintuc->tomtat = $request->TomTat;
     $tintuc->noidung = $request->NoiDung;
     $tintuc->soluotxem = 0;
@@ -86,13 +79,11 @@ class TinTucController extends Controller {
     $tintuc = TinTuc::find($id);
     $this->validate($request,
       [
-        'LoaiTin' => 'required',
         'TieuDe' => 'required|min:3',/*unique:TinTuc,TieuDe tên bảng,trường*/
         'TomTat' =>'required',
         'NoiDung' =>'required',
       ],
       [
-        'LoaiTin.required' => 'Bạn chưa chọn loại tin',
         'TieuDe.required' => 'Bạn chưa nhập tiêu đề',
         'TieuDe.min' => 'Độ dài ít nhất 3 ký tự',
         'TomTat.required' => 'Bạn chưa nhập tóm tắt',
@@ -100,7 +91,6 @@ class TinTucController extends Controller {
       ]);
     $tintuc->tieude = $request->TieuDe;
     $tintuc->tieudekhongdau = changeTitle($request->TieuDe);
-    $tintuc->idloaitin = $request->LoaiTin;
     $tintuc->tomtat = $request->TomTat;
     $tintuc->noidung = $request->NoiDung;
     if ($request->hasFile('Hinh')) {

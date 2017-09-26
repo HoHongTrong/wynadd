@@ -20,10 +20,8 @@ class CreateTintucsTable extends Migration
           $table->text('tomtat');
           $table->longText('noidung');
           $table->string('Hinh');
-          $table->integer('noibat')->default(0);
+          $table->integer('noibat')->default(1);
           $table->integer('soluotxem')->default(0);
-          $table->integer('idloaitin')->unsigned();
-          $table->foreign('idloaitin')->references('id')->on('loaitins');
           $table->timestamps();
 
         });

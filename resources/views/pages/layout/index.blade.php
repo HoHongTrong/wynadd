@@ -14,6 +14,14 @@
   {!! Html::style('vendor/swiper/css/swiper.min.css') !!}
   {!! Html::style('css/layout.min.css') !!}
   {!! Html::style('css/hht.css') !!}
+
+
+  {!! Html::style('hoatdong/css/bootstrap.min.css') !!}
+  {!! Html::style('hoatdong/css/shop-homepage.css') !!}
+  {!! Html::style('hoatdong/css/my.css') !!}
+  {!! Html::style('https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js') !!}
+  {!! Html::style('https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js') !!}
+
   <link rel="shortcut icon" href="favicon.ico"/>
 </head>
 <body>
@@ -45,6 +53,13 @@
 {!! Html::script('js/components/wow.min.js') !!}
 {!! Html::script('js/components/swiper.min.js') !!}
 {!! Html::script('js/components/masonry.min.js') !!}
+
+
+{!! Html::script('hoatdong/js/jquery.js') !!}
+{!! Html::script('hoatdong/js/bootstrap.min.js') !!}
+{!! Html::script('hoatdong/js/my.js') !!}
+
+
 
 </body>
 <!-- END BODY -->

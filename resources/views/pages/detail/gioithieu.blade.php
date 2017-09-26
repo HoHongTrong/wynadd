@@ -6,6 +6,7 @@
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
   <div class="parallax-content container">
     <h1 class="carousel-title">Wynads</h1>
+    <p style="color:yellow"><b>Hotline : Ms.Hau 0904.192028</b></p>
     <p>Giới thiệu về WYNADS</p>
   </div>
 </div>
@@ -37,7 +38,7 @@
       Theo giá trị vĩnh hằng chúng tôi luôn nguyện cho khách hàng thành công.<br>
       <br>
       <h5>Tầm Nhìn</h5>
-      <p>Năm 2020, sẽ trở thành một công ty thiết kế và làm phim quảng cáo thương hiệu uy tín, lớn mạnh nhì trên thị trường, đồng phát triển dịch vụ tư vấn chiến lược cho từng thương hiệu.<br>
+      <p style="color: #111111">Năm 2020, sẽ trở thành một công ty thiết kế và làm phim quảng cáo thương hiệu uy tín, lớn mạnh nhì trên thị trường, đồng phát triển dịch vụ tư vấn chiến lược cho từng thương hiệu.<br>
       Đồng thời sẽ mở văn phòng đại diện tại các thành phố lớn trực thuộc trung ương  trên đất nước  như  là : Hà Nội, Hải Phòng, Đà Nẵng, Tp.HCM, Cần thơ và DakLak(Quê mẹ).<br>
       <h5>Giá Trị Cốt Lõi</h5>
       Những điều mà QYNAD tự hào nhất nằm ở giá trị tinh thần mà các thành viên trong công ty luôn coi trọng và phát huy không ngừng:<br>
@@ -69,101 +70,113 @@
 <!-- Service -->
 <div class="bg-color-sky-light" data-auto-height="true">
   <div class="content-lg container">
+    <div class="row margin-b-40">
+      <div class="col-sm-6">
+        <h2>Dịch vụ Wyndas cung cấp</h2>
+      </div>
+    </div>
     <div class="row row-space-1 margin-b-2">
-      <div class="col-sm-4 sm-margin-b-2">
+
+      <div class="col-sm-4 sm-margin-b-2" >
         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
           <div class="service" data-height="height">
             <div class="service-element">
               <i class="service-icon icon-chemistry"></i>
             </div>
             <div class="service-info">
-              <h3>Art Of Coding</h3>
-              <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+              <h3>Thiết kế LoGo NameCard theo phong thủy</h3>
+              <p class="margin-b-5">Bạn là công ty/doanh nghiệp mới bạn cần có một logo chuyên nghiệp ....</p>
             </div>
-            <a href="#" class="content-wrapper-link"></a>
+            <a href="logo-phong-thuy" class="content-wrapper-link"></a>
           </div>
         </div>
       </div>
-      <div class="col-sm-4 sm-margin-b-2">
+
+      <div class="col-sm-4 sm-margin-b-2" >
         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
           <div class="service" data-height="height">
             <div class="service-element">
               <i class="service-icon icon-screen-tablet"></i>
             </div>
             <div class="service-info">
-              <h3>Responsive Design</h3>
-              <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+              <h3>Giải pháp thương hiệu</h3>
+              <p class="margin-b-5">Một thiết kế logo chuyên nghiệp, một tên thương hiệu dễ nhớ ấn tượng, một slogan nói đúng giá trị ....</p>
             </div>
-            <a href="#" class="content-wrapper-link"></a>
+            <a href="giai-phap-thuong-hieu" class="content-wrapper-link"></a>
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+
+      <div class="col-sm-4" >
         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
           <div class="service" data-height="height">
             <div class="service-element">
               <i class="service-icon icon-badge"></i>
             </div>
             <div class="service-info">
-              <h3>Feature Reach</h3>
-              <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+              <h3>Video InTro</h3>
+              <p class="margin-b-5">- Một video giới thiệu về công ty hay giới thiệu một website nào đó nếu có đoạn mở đầu ấn tượng thì sẽ có khả năng thu hút người xem rất cao......</p>
             </div>
-            <a href="#" class="content-wrapper-link"></a>
+            <a href="video-intro" class="content-wrapper-link"></a>
           </div>
         </div>
       </div>
     </div>
     <!--// end row -->
 
-    <div class="row row-space-1">
-      <div class="col-sm-4 sm-margin-b-2">
+    <div class="row row-space-1" >
+      <div class="col-sm-4 sm-margin-b-2" >
         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
           <div class="service" data-height="height">
             <div class="service-element">
               <i class="service-icon icon-notebook"></i>
             </div>
             <div class="service-info">
-              <h3>Useful Documentation</h3>
-              <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+              <h3>Đăng kí bảo hộ độc quyền</h3>
+              <p class="margin-b-5"><b>Quy trình đăng ký một nhãn hiệu sản phẩm</b> là một quy trình kéo dài 12-14 tháng
+                theo Luật Sở hữu trí tuệ Việt Nam, ....</p>
             </div>
-            <a href="#" class="content-wrapper-link"></a>
+            <a href="dang-ki-bao-ho-doc-quyen" class="content-wrapper-link"></a>
           </div>
         </div>
       </div>
-      <div class="col-sm-4 sm-margin-b-2">
+
+      <div class="col-sm-4 sm-margin-b-2" >
         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
           <div class="service" data-height="height">
             <div class="service-element">
               <i class="service-icon icon-speedometer"></i>
             </div>
             <div class="service-info">
-              <h3>Fast Delivery</h3>
-              <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
+              <h3>Phim hoạt hình quản cáo 2D,3D</h3>
+              <p class="margin-b-5">- Thiết kế video quảng cáo hoạt hình phối hợp với video thường để nâng cao hiệu quả quảng cáo, truyền thông.
+                Tại sao bạn cần thiết kế video quảng cáo hoạt hình?
+              </p>
             </div>
-            <a href="#" class="content-wrapper-link"></a>
+            <a href="video-2d-3d" class="content-wrapper-link"></a>
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">
-          <div class="service" data-height="height">
-            <div class="service-element">
-              <i class="service-icon icon-badge"></i>
-            </div>
-            <div class="service-info">
-              <h3>Free Plugins</h3>
-              <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-            </div>
-            <a href="#" class="content-wrapper-link"></a>
-          </div>
-        </div>
-      </div>
+
+      {{--<div class="col-sm-4">--}}
+      {{--<div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">--}}
+      {{--<div class="service" data-height="height">--}}
+      {{--<div class="service-element">--}}
+      {{--<i class="service-icon icon-badge"></i>--}}
+      {{--</div>--}}
+      {{--<div class="service-info">--}}
+      {{--<h3>Free Plugins</h3>--}}
+      {{--<p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>--}}
+      {{--</div>--}}
+      {{--<a href="#" class="content-wrapper-link"></a>--}}
+      {{--</div>--}}
+      {{--</div>--}}
+      {{--</div>--}}
     </div>
-    <!--// end row -->
   </div>
+  <!--// end row -->
 </div>
 <!-- End Service -->
-
 <!-- Testimonials -->
 <div class="content-lg container">
   <div class="row">
