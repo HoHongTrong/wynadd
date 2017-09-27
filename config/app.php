@@ -166,9 +166,10 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
 
-        /*
-         * Package Service Providers...
-         */
+
+      /*
+       * Package Service Providers...
+       */
         Laravel\Tinker\TinkerServiceProvider::class,
 
         /*
