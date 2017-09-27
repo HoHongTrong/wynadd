@@ -35,7 +35,7 @@
             </div>
             <div class="form-group">
               <label>Tóm Tắt</label>
-              <textarea id="demo" name="TomTat" class="form-control ckeditor" rows="2"></textarea>
+              <textarea id="demo" name="TomTat" class="form-control" rows="2"></textarea>
             </div>
 
             <div class="form-group">

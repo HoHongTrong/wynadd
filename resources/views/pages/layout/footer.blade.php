@@ -7,12 +7,11 @@
         <div class="col-sm-2 sm-margin-b-50">
           <!-- List -->
           <ul class="list-unstyled footer-list">
-            <li class="footer-list-item"><a class="footer-list-link" href="#">Trang Chủ</a></li>
-            <li class="footer-list-item"><a class="footer-list-link" href="#">Giới Thiệu</a></li>
-            <li class="footer-list-item"><a class="footer-list-link" href="#">Dịch vụ</a></li>
-            <li class="footer-list-item"><a class="footer-list-link" href="#">Hoạt Động</a></li>
+            <li class="footer-list-item"><a class="footer-list-link" href="{{route('trangchu')}}">Trang Chủ</a></li>
+            <li class="footer-list-item"><a class="footer-list-link" href="{{route('gioithieu')}}">Giới Thiệu</a></li>
+            <li class="footer-list-item"><a class="footer-list-link" href="{{route('dichvu')}}">Dịch vụ</a></li>
             <li class="footer-list-item"><a class="footer-list-link" href="http://giatrithuonghieu.net">Giá Trị Thương Hiệu</a></li>
-            <li class="footer-list-item"><a class="footer-list-link" href="#">Liên Hệ</a></li>
+            <li class="footer-list-item"><a class="footer-list-link" href="{{route('lienhe')}}">Liên Hệ</a></li>
           </ul>
           <!-- End List -->
         </div>

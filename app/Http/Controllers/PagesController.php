@@ -51,8 +51,7 @@ class PagesController extends Controller {
   public function tintuc($id) {
     $tintuc = TinTuc::find($id);
     $tinnoibat = TinTuc::orderBy('id','desc')
-      ->take(4)
-      ->get();
+      ->take(5)->get();
     return view('pages.detail.tintuc',
       [
         'tintuc' => $tintuc,

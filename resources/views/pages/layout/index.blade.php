@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <title>WynAds</title>
+  <base href="{{asset('')}}">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <meta content="" name="description"/>
@@ -16,11 +17,11 @@
   {!! Html::style('css/hht.css') !!}
 
 
-  {!! Html::style('hoatdong/css/bootstrap.min.css') !!}
-  {!! Html::style('hoatdong/css/shop-homepage.css') !!}
-  {!! Html::style('hoatdong/css/my.css') !!}
-  {!! Html::style('https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js') !!}
-  {!! Html::style('https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js') !!}
+  {{--{!! Html::style('hoatdong/css/bootstrap.min.css') !!}--}}
+  {{--{!! Html::style('hoatdong/css/shop-homepage.css') !!}--}}
+  {{--{!! Html::style('hoatdong/css/my.css') !!}--}}
+  {{--{!! Html::style('https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js') !!}--}}
+  {{--{!! Html::style('https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js') !!}--}}
 
   <link rel="shortcut icon" href="favicon.ico"/>
 </head>
@@ -55,9 +56,9 @@
 {!! Html::script('js/components/masonry.min.js') !!}
 
 
-{!! Html::script('hoatdong/js/jquery.js') !!}
-{!! Html::script('hoatdong/js/bootstrap.min.js') !!}
-{!! Html::script('hoatdong/js/my.js') !!}
+{{--{!! Html::script('hoatdong/js/jquery.js') !!}--}}
+{{--{!! Html::script('hoatdong/js/bootstrap.min.js') !!}--}}
+{{--{!! Html::script('hoatdong/js/my.js') !!}--}}
 
 
 

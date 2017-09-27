@@ -72,7 +72,7 @@ Route::get('lienhe',['as'=>'lienhe','uses'=>'PagesController@lienhe']);
 Route::get('gioithieu',['as'=>'gioithieu','uses'=>'PagesController@gioithieu']);
 Route::get('dichvu',['as'=>'dichvu','uses'=>'PagesController@dichvu']);
 
-Route::get('tintuc/{id}/{tenkhongdau}.html',['as'=>'tintuc','uses'=>'PagesController@tintuc']);
+Route::get('tintuc/{id}/{tenkhongdau}',['as'=>'tintuc','uses'=>'PagesController@tintuc']);
 
 Route::get('logo-phong-thuy',function (){
   return view('pages.detail.logophongthuy');
@@ -89,7 +89,5 @@ Route::get('video-intro',function (){
 Route::get('video-2d-3d',function (){
   return view('pages.detail.2d3d');
 });
-Route::get('video-2d-3d',function (){
-  return view('pages.detail.2d3d');
-});
+
 

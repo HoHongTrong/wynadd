@@ -52,7 +52,7 @@
       <div class="ver-center">
         <div class="ver-center-aligned">
           <div class="promo-section-col">
-            <h2>Wynads</h2>
+            <h2>WynAds</h2>
             <h5>Chúng tôi có 15 năm kinh nghiệm về thiết kế đồ họa và đặc biệt là gần 6 năm kinh nghiệp làm phim hoạt hình Nhật bản. Chúng tôi cực kỳ tự hào vì điều này vì khi nói về giá trị nghệ thuật thì chỉ có Nhật Bản là đứng đầu trên thế giới.
 
               Chúng tôi tin tưởng sẽ luôn là người đồng hành đáng tin cậy trên bước đường thành công của thương hiệu.</h5>

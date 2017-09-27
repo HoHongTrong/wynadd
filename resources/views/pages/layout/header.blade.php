@@ -14,7 +14,6 @@
         <div class="logo">
           <a class="logo-wrap" href="{{route('trangchu')}}">
             <img src="img/logo-tc.png" alt="Asentus Logo">
-            {{--<img class="logo-img logo-img-active" src="img/logo-tc.png" alt="Asentus Logo">--}}
           </a>
         </div>
         <!-- End Logo -->
@@ -34,14 +33,12 @@
               <a class="nav-item-child nav-item-hover" href="{{route('dichvu')}}">Dịch vụ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item-child nav-item-hover" href="products.html">hoạt động</a>
+              <a class="nav-item-child nav-item-hover" href="{{route('lienhe')}}">Liên hệ</a>
             </li>
             <li class="nav-item">
               <a class="nav-item-child nav-item-hover" href="http://giatrithuonghieu.net/">Giá trị thương hiệu</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-item-child nav-item-hover" href="{{route('lienhe')}}">Liên hệ</a>
-            </li>
+
           </ul>
         </div>
       </div>
