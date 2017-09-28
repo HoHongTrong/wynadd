@@ -57,11 +57,12 @@
       <li class="sub-menu">
         <a href="javascript:;" class="">
           <i class="icon_table"></i>
-          <span>Tables</span>
+          <span>Khách Hàng</span>
           <span class="menu-arrow arrow_carrot-right"></span>
         </a>
         <ul class="sub">
-          <li><a class="" href="basic_table.html">Basic Table</a></li>
+          <li><a class="" href="{{route('ds-khachhang')}}">Danh sách khách hàng</a></li>
+          <li><a class="" href="{{route('them-slide')}}">Thêm khách hàng</a></li>
         </ul>
       </li>
       <li class="sub-menu">

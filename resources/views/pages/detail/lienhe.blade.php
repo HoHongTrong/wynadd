@@ -2,7 +2,7 @@
 @section('content')
 
 <!--========== PARALLAX ==========-->
-<div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/11.jpg">
+<div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/banner6.png">
   <div class="parallax-content container">
     <h1 class="carousel-title"></h1>
   </div>
@@ -62,7 +62,7 @@
     </div>
   </div>
   <div class="promo-section-img-right">
-    <img class="img-responsive" src="img/970x970/3n.jpg" alt="Content Image">
+    <img  style="position: relative;top: -50px;" class="img-responsive" src="img/1920x1080/1n.jpg" alt="Content Image">
   </div>
 </div>
 <!-- End Contact List -->

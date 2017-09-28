@@ -21,7 +21,7 @@
   <div class="row margin-b-40">
     <div class="col-sm-6">
       <h2>Sản phẩm của WynAds</h2>
-      <p>Với 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa máy tính, Wynads sẽ cam kết đảm bảo sẽ thiết kế thành công thương hiệu cho của bạn. Với bộ nhận diện thương hiệu chuyên nghiệp, ấn tượng và sáng tạo nhất. Sẽ giúp bạn tự tin quảng bá thương hiệu của mình,</p>
+      <p>Với 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa máy tính, Wynads sẽ cam kết đảm bảo sẽ thiết kế thành công thương hiệu cho của bạn. Với bộ nhận diện thương hiệu chuyên nghiệp, ấn tượng và sáng tạo nhất. Sẽ giúp bạn tự tin quảng bá thương hiệu của mình.</p>
     </div>
   </div>
   <!--// end row -->
@@ -119,6 +119,60 @@
     </div>
   </div>
   <!-- End Service -->
+
+
+<!-- Testimonials -->
+<div class="content-lg container">
+  <div class="row">
+    <div class="col-sm-9">
+      <h2>Khách hàng</h2>
+      <!-- Swiper Testimonials -->
+      <div class="swiper-slider swiper-testimonials">
+        <!-- Swiper Wrapper -->
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <blockquote class="blockquote">
+              <div class="margin-b-20">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna
+                aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
+                <div class="promo-section-img-right">
+                  <img  style="position: relative;top: -50px;" class="img-responsive" src="img/1920x1080/1n.jpg" alt="Content Image">
+                </div>
+              </div>
+              <div class="margin-b-20">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor
+                incididunt dolore magna consequat siad minim aliqua.
+              </div>
+              <p><span class="fweight-700 color-link">Joh Milner</span>, Metronic Customer</p>
+            </blockquote>
+          </div>
+          <div class="swiper-slide">
+            <blockquote class="blockquote">
+              <div class="margin-b-20">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.
+              </div>
+              <div class="margin-b-20">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+              </div>
+              <p><span class="fweight-700 color-link">Alex Clarson</span>, Metronic Customer</p>
+            </blockquote>
+          </div>
+        </div>
+        <!-- End Swiper Wrapper -->
+
+        <!-- Pagination -->
+        <div class="swiper-testimonials-pagination"></div>
+      </div>
+      <!-- End Swiper Testimonials -->
+    </div>
+  </div>
+  <!--// end row -->
+</div>
+<!-- End Testimonials -->
+
   <!--========== END PAGE LAYOUT ==========-->
 
 

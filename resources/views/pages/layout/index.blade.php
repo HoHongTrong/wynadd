@@ -15,6 +15,7 @@
   {!! Html::style('vendor/swiper/css/swiper.min.css') !!}
   {!! Html::style('css/layout.min.css') !!}
   {!! Html::style('css/hht.css') !!}
+  {!! Html::style('css/owl.carousel.css') !!}
 
 
   {{--{!! Html::style('hoatdong/css/bootstrap.min.css') !!}--}}

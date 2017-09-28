@@ -65,6 +65,16 @@ Route::get('sua-slide/{id}',['as'=>'sua-slide','uses'=>'SlideController@getEdit'
 Route::post('sua-slide/{id}',['as'=>'sua-slide','uses'=>'SlideController@postEdit']);
 
 Route::get('xoa-slide/{id}',['as'=>'xoa-slide','uses'=>'SlideController@getDelete']);
+//============================== Khách hàng===============================================
+Route::get('danhsach-khachhang',['as'=>'ds-khachhang','uses'=>'KhachHangController@getList']);
+
+Route::get('them-khachhang',['as'=>'them-khachhang','uses'=>'KhachHangController@getAdd']);
+Route::post('them-khachhang',['as'=>'them-khachhang','uses'=>'KhachHangController@postAdd']);
+
+Route::get('sua-khachhang/{id}',['as'=>'sua-khachhang','uses'=>'KhachHangController@getEdit']);
+Route::post('sua-khachhang/{id}',['as'=>'sua-khachhang','uses'=>'KhachHangController@postEdit']);
+
+Route::get('xoa-khachhang/{id}',['as'=>'xoa-khachhang','uses'=>'KhachHangController@getDelete']);
 
 //=============================== Fronend =====================================================
 Route::get('trangchu',['as'=>'trangchu','uses'=>'PagesController@trangchu']);
