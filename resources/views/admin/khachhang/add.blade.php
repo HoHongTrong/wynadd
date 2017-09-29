@@ -34,8 +34,8 @@
             <input class="form-control" name="Ten" placeholder="Nhập tên khách hàng"/>
           </div>
           <div class="form-group">
-            <label>Tên Công Ty</label>
-            <input class="form-control" name="TenCongTy" placeholder="Nhập tên công ty"/>
+            <label>Chức Vụ</label>
+            <input class="form-control" name="ChucVu" placeholder="Nhập chức vụ tên công ty"/>
           </div>
           <div class="form-group">
             <label>Bình Luận</label>

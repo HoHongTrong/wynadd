@@ -44,7 +44,7 @@
             </div>
             <div class="form-group">
               <label>Hình Ảnh</label>
-              <p><img width="500px" src="upload/slide/{{$slide->Hinh}}"/></p>
+              <p><img width="500px" src="{{ asset("/upload/slide/$slide->Hinh") }}"/></p>
               <input type="file" name="Hinh"/>
             </div>
 

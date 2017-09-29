@@ -74,7 +74,7 @@
             <div class="form-group">
               <label>Hình Ảnh</label>
               <p>
-                <img width="400px" src="upload/tintuc/{{$tintuc->Hinh}}"/>
+                <img width="400px" src="{{ asset("/upload/tintuc/$tintuc->Hinh") }}"/>
               </p>
               <input type="file" name="Hinh"/>
 

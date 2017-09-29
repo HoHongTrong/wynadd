@@ -30,7 +30,7 @@ class KhachHangController extends Controller
       ]);
     $khachhang = new KhachHang();
     $khachhang->ten = $request->Ten;
-    $khachhang->tencty = $request->TenCongTy;
+    $khachhang->chucvu = $request->ChucVu;
     $khachhang->binhluan = $request->BinhLuan;
 
     if ($request->hasFile('Hinh')) {
@@ -75,7 +75,7 @@ class KhachHangController extends Controller
       ]);
     $khachhang = KhachHang::find($id);
     $khachhang->ten = $request->Ten;
-    $khachhang->tencty = $request->TenCongTy;
+    $khachhang->chucvu = $request->ChucVu;
     $khachhang->binhluan = $request->BinhLuan;
 
     if ($request->hasFile('Hinh')) {

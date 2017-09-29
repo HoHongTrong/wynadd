@@ -34,18 +34,18 @@
               <input class="form-control" name="Ten" placeholder="Nhập tên khách hàng" value="{{$khachhang->ten}}"/>
             </div>
             <div class="form-group">
-              <label>Tên Công Ty:</label>
-              <input class="form-control" name="link" placeholder="Nhập link" value="{{$khachhang->tencty}}"/>
+              <label>Chức Vụ:</label>
+              <input class="form-control" name="ChucVu" placeholder="Chức vụ tên cty" value="{{$khachhang->chucvu}}"/>
             </div>
             <div class="form-group">
               <label>Bình Luận</label>
-              <textarea id="demo" name="BinhLuan" class="form-control ckeditor" rows="2"
+              <textarea id="demo" name="BinhLuan" class="form-control ckeditor" rows="5"
                         value="{{$khachhang->binhluan}}"></textarea>
             </div>
 
             <div class="form-group">
               <label>Hình Ảnh</label>
-              <p><img width="500px" src="upload/khachhang/{{$khachhang->Hinh}}"/></p>
+              <p><img src="{{ asset("/upload/khachhang/$khachhang->Hinh") }}"/></p>
               <input type="file" name="Hinh"/>
             </div>
 

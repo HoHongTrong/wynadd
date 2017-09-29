@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.2
--- Thời gian đã tạo: Th9 27, 2017 lúc 11:53 AM
+-- Thời gian đã tạo: Th9 29, 2017 lúc 06:26 AM
 -- Phiên bản máy phục vụ: 10.1.24-MariaDB
 -- Phiên bản PHP: 7.1.6
 
@@ -21,6 +21,30 @@ SET time_zone = "+00:00";
 --
 -- Cơ sở dữ liệu: `wynadd`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `khachhangs`
+--
+
+CREATE TABLE `khachhangs` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `ten` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `chucvu` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `binhluan` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Hinh` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `khachhangs`
+--
+
+INSERT INTO `khachhangs` (`id`, `ten`, `chucvu`, `binhluan`, `Hinh`, `created_at`, `updated_at`) VALUES
+(1, 'ddasdasdasdas', 'đâsdasdasdasdas', '<p style=\"text-align:justify\">Sau cuộc đua tranh Messi - Ronaldo, đến hôm nay thế giới&nbsp;<a class=\"TextlinkBaiviet\" href=\"http://www.24h.com.vn/bong-da-c48.html\" style=\"text-decoration-line: none; color: rgb(0, 0, 255);\" title=\"bóng đá\">bóng đá</a>&nbsp;mới lại chứng kiến một cuộc đua tranh hấp dẫn nữa giữa hai cá nhân. Họ - Alvaro Morata và Romelu&nbsp;<strong>Lukaku</strong>, mang trong mình những vết gợn kể từ cuộc chuyển nhượng đổ vỡ giữa MU và Morata hồi đầu hè, để rồi từ đó nảy sinh một cuộc chạy đua vô hình nhưng rất đáng chú ý.</p>\r\n\r\n<p><img alt=\"Lukaku - Morata: Đua ghi bàn từ Ngoại hạng đến C1, Messi - Ronaldo mới? - 1\" class=\"news-image\" src=\"http://image.24h.com.vn/upload/3-2017/images/2017-09-28/1506552861-44cbfbfe00000578-4926774-it_was_a_contrast_of_emotions_between_the_two_teams_on_26_minute-m-29_1506543158661.jpg\" style=\"border:0px; max-width:660px\" /></p>\r\n\r\n<p style=\"text-align:center\">Lukaku ăn mừng khá \"khệnh\" khi ghi bàn vào lưới CSKA</p>\r\n\r\n<p style=\"text-align:justify\">Tại&nbsp;<a class=\"TextlinkBaiviet\" href=\"http://www.24h.com.vn/bong-da-ngoai-hang-anh-c149.html\" style=\"text-decoration-line: none; color: rgb(0, 0, 255);\" title=\"giải Ngoại hạng Anh\">giải Ngoại hạng Anh</a>, phong độ của Lukaku và Morata là quá thuyết phục. Họ đã cùng nhau có 6 bàn thắng sau vòng 6, riêng Morata còn có thêm 2 đường kiến tạo trong khi Lukaku cũng có 1 lần. Hai tân binh trị giá 145 triệu bảng này tiếp tục duy trì phong độ ổn định khi bước ra sân chơi lớn Champions League.</p>', 'LBhj_tablet_smartphone_laptop_size.jpg', '2017-09-28 02:09:21', '2017-09-28 02:09:21'),
+(2, '12233', '12233', '<p>test nội dung của khách hàng</p>', 'SiSU_image-1476865925-DSC07670.jpg', '2017-09-28 20:28:48', '2017-09-28 20:28:48');
 
 -- --------------------------------------------------------
 
@@ -57,7 +81,8 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (9, '2017_09_16_103950_create_slides_table', 1),
 (10, '2017_09_16_104517_create_theloais_table', 1),
 (11, '2017_09_16_104704_create_loaitins_table', 1),
-(12, '2017_09_16_104733_create_tintucs_table', 1);
+(12, '2017_09_16_104733_create_tintucs_table', 1),
+(13, '2017_09_28_062014_create_khachhangs_table', 2);
 
 -- --------------------------------------------------------
 
@@ -161,6 +186,12 @@ CREATE TABLE `users` (
 --
 
 --
+-- Chỉ mục cho bảng `khachhangs`
+--
+ALTER TABLE `khachhangs`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Chỉ mục cho bảng `loaitins`
 --
 ALTER TABLE `loaitins`
@@ -209,6 +240,11 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT cho bảng `khachhangs`
+--
+ALTER TABLE `khachhangs`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
 -- AUTO_INCREMENT cho bảng `loaitins`
 --
 ALTER TABLE `loaitins`
@@ -217,7 +253,7 @@ ALTER TABLE `loaitins`
 -- AUTO_INCREMENT cho bảng `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 --
 -- AUTO_INCREMENT cho bảng `slides`
 --

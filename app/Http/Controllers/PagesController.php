@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\KhachHang;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -39,7 +40,8 @@ class PagesController extends Controller {
     return view('pages.detail.gioithieu');
   }
   public function dichvu(){
-    return view('pages.detail.dichvu');
+    $khachhang = KhachHang::all();
+    return view('pages.detail.dichvu',['khachhang'=>$khachhang]);
   }
 
   public function loaitin($id) {

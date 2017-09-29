@@ -21,7 +21,7 @@
         <tr align="center">
           <th>ID</th>
           <th>Tên</th>
-          <th>Tên Công Ty</th>
+          <th>Chức Vụ</th>
           <th>Bình Luận</th>
           <th>Hình</th>
           <th>Delete</th>
@@ -33,7 +33,7 @@
         <tr class="odd gradeX" align="center">
           <td>{{$kh->id}}</td>
           <td>{{$kh->ten}}</td>
-          <td>{{$kh->tencty}}</td>
+          <td>{{$kh->chucvu}}</td>
           <td>{{$kh->binhluan}}</td>
           <td>
             <img width="400px" height="" src="upload/khachhang/{{$kh->Hinh}}">
