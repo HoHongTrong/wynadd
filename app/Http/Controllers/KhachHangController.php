@@ -20,12 +20,12 @@ class KhachHangController extends Controller
   public function postAdd(Request $request) {
     $this->validate($request, [
       'Ten' => 'required',
-      'TenCongTy' => 'required',
+      'ChucVu' => 'required',
       'BinhLuan' => 'required'
     ],
       [
         'Ten.required' => 'Nhập tên slide',
-        'TenCongTy.required' => 'Nhập tên công ty',
+        'ChucVu.required' => 'Nhập chức vụ',
         'BinhLuan.required' => 'Nhập nội dung bình luận'
       ]);
     $khachhang = new KhachHang();
@@ -65,12 +65,12 @@ class KhachHangController extends Controller
   public function postEdit(Request $request, $id) {
     $this->validate($request, [
       'Ten' => 'required',
-      'TenCongTy' => 'required',
+      'ChucVu' => 'required',
       'BinhLuan' => 'required'
     ],
       [
         'Ten.required' => 'Nhập tên slide',
-        'TenCongTy.required' => 'Nhập tên công ty',
+        'ChucVu.required' => 'Nhập tên chức vụ',
         'BinhLuan.required' => 'Nhập nội dung bình luận'
       ]);
     $khachhang = KhachHang::find($id);
