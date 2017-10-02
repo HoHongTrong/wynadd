@@ -27,8 +27,8 @@
           Sẽ giúp bạn tự tin quảng bá thương hiệu của mình.</b></p>
       <p style="color: #111111"><b> Chúng tôi tin tưởng sẽ luôn là người đồng hành đáng tin cậy trên bước đường thành
           công của thương hiệu.
-          Chúng tôi tin vào giá trị cốt lõi vĩnh hằng và với đạo đức tu luyện hằng ngày của mình để đem đến </br></br>
-          GIÁ TRỊ THƯƠNG HIỆU – NGUYỆN CHO KHÁCH HÀNG THÀNH CÔNG.</b></p>
+          Chúng tôi tin vào giá trị cốt lõi vĩnh hằng và với đạo đức tu luyện hằng ngày của mình để đem đến</b></p>
+      <P style="color: red"><b>GIÁ TRỊ THƯƠNG HIỆU – NGUYỆN CHO KHÁCH HÀNG THÀNH CÔNG.</b></P>
     </div>
     <div class="col-sm-4 col-sm-offset-1">
       <img class="img-responsive" src="img/dichvu/1b.png" alt="Our Office">
