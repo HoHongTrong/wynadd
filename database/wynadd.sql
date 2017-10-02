@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.2
--- Thời gian đã tạo: Th9 29, 2017 lúc 06:26 AM
+-- Thời gian đã tạo: Th10 02, 2017 lúc 10:04 AM
 -- Phiên bản máy phục vụ: 10.1.24-MariaDB
 -- Phiên bản PHP: 7.1.6
 
@@ -43,8 +43,9 @@ CREATE TABLE `khachhangs` (
 --
 
 INSERT INTO `khachhangs` (`id`, `ten`, `chucvu`, `binhluan`, `Hinh`, `created_at`, `updated_at`) VALUES
-(1, 'ddasdasdasdas', 'đâsdasdasdasdas', '<p style=\"text-align:justify\">Sau cuộc đua tranh Messi - Ronaldo, đến hôm nay thế giới&nbsp;<a class=\"TextlinkBaiviet\" href=\"http://www.24h.com.vn/bong-da-c48.html\" style=\"text-decoration-line: none; color: rgb(0, 0, 255);\" title=\"bóng đá\">bóng đá</a>&nbsp;mới lại chứng kiến một cuộc đua tranh hấp dẫn nữa giữa hai cá nhân. Họ - Alvaro Morata và Romelu&nbsp;<strong>Lukaku</strong>, mang trong mình những vết gợn kể từ cuộc chuyển nhượng đổ vỡ giữa MU và Morata hồi đầu hè, để rồi từ đó nảy sinh một cuộc chạy đua vô hình nhưng rất đáng chú ý.</p>\r\n\r\n<p><img alt=\"Lukaku - Morata: Đua ghi bàn từ Ngoại hạng đến C1, Messi - Ronaldo mới? - 1\" class=\"news-image\" src=\"http://image.24h.com.vn/upload/3-2017/images/2017-09-28/1506552861-44cbfbfe00000578-4926774-it_was_a_contrast_of_emotions_between_the_two_teams_on_26_minute-m-29_1506543158661.jpg\" style=\"border:0px; max-width:660px\" /></p>\r\n\r\n<p style=\"text-align:center\">Lukaku ăn mừng khá \"khệnh\" khi ghi bàn vào lưới CSKA</p>\r\n\r\n<p style=\"text-align:justify\">Tại&nbsp;<a class=\"TextlinkBaiviet\" href=\"http://www.24h.com.vn/bong-da-ngoai-hang-anh-c149.html\" style=\"text-decoration-line: none; color: rgb(0, 0, 255);\" title=\"giải Ngoại hạng Anh\">giải Ngoại hạng Anh</a>, phong độ của Lukaku và Morata là quá thuyết phục. Họ đã cùng nhau có 6 bàn thắng sau vòng 6, riêng Morata còn có thêm 2 đường kiến tạo trong khi Lukaku cũng có 1 lần. Hai tân binh trị giá 145 triệu bảng này tiếp tục duy trì phong độ ổn định khi bước ra sân chơi lớn Champions League.</p>', 'LBhj_tablet_smartphone_laptop_size.jpg', '2017-09-28 02:09:21', '2017-09-28 02:09:21'),
-(2, '12233', '12233', '<p>test nội dung của khách hàng</p>', 'SiSU_image-1476865925-DSC07670.jpg', '2017-09-28 20:28:48', '2017-09-28 20:28:48');
+(1, 'ddasdasdasdas', 'đâsdasdasdasdas', 'Sau cuộc đua tranh Messi - Ronaldo, đến hôm nay thế giới&nbsp;<a class=\"TextlinkBaiviet\" href=\"http://www.24h.com.vn/bong-da-c48.html\" style=\"text-decoration-line: none; color: rgb(0, 0, 255);\" title=\"bóng đá\">bóng đá</a>&nbsp;mới lại chứng kiến một cuộc đua tranh hấp dẫn nữa giữa hai cá nhân. Họ - Alvaro Morata và Romelu&nbsp;<strong>Lukaku</strong>, mang trong mình những vết gợn kể từ cuộc chuyển nhượng đổ vỡ giữa MU và Morata hồi đầu hè, để rồi từ đó nảy sinh một cuộc chạy đua vô hình nhưng rất đáng chú ý.</p>\r\n\r\n<p><img alt=\"Lukaku - Morata: Đua ghi bàn từ Ngoại hạng đến C1, Messi - Ronaldo mới? - 1\" class=\"news-image\" src=\"http://image.24h.com.vn/upload/3-2017/images/2017-09-28/1506552861-44cbfbfe00000578-4926774-it_was_a_contrast_of_emotions_between_the_two_teams_on_26_minute-m-29_1506543158661.jpg\" style=\"border:0px; max-width:660px\" /></p>\r\n\r\n<p style=\"text-align:center\">Lukaku ăn mừng khá \"khệnh\" khi ghi bàn vào lưới CSKA</p>\r\n\r\n<p style=\"text-align:justify\">Tại&nbsp;<a class=\"TextlinkBaiviet\" href=\"http://www.24h.com.vn/bong-da-ngoai-hang-anh-c149.html\" style=\"text-decoration-line: none; color: rgb(0, 0, 255);\" title=\"giải Ngoại hạng Anh\">giải Ngoại hạng Anh</a>, phong độ của Lukaku và Morata là quá thuyết phục. Họ đã cùng nhau có 6 bàn thắng sau vòng 6, riêng Morata còn có thêm 2 đường kiến tạo trong khi Lukaku cũng có 1 lần. Hai tân binh trị giá 145 triệu bảng này tiếp tục duy trì phong độ ổn định khi bước ra sân chơi lớn Champions League.</p>', 'LBhj_tablet_smartphone_laptop_size.jpg', '2017-09-28 02:09:21', '2017-09-28 02:09:21'),
+(2, '12233', '12233', 'test nội dung của khách hàng', 'SiSU_image-1476865925-DSC07670.jpg', '2017-09-28 20:28:48', '2017-10-02 00:52:49'),
+(3, 'test tip', 'test tip', '<p>&nbsp;test khách hàng tip</p>', 'WL0A_landscape-1468945290-guardi-5648-1480932026.jpg', '2017-09-28 21:48:41', '2017-09-28 21:48:41');
 
 -- --------------------------------------------------------
 
@@ -115,8 +116,8 @@ CREATE TABLE `slides` (
 --
 
 INSERT INTO `slides` (`id`, `ten`, `Hinh`, `noidung`, `link`) VALUES
-(1, '1', 'nG7Z_3n.jpg', 'slide1', NULL),
-(2, '2', '39ux_4n.jpg', 'slide2', NULL),
+(1, 's3', 'UfxZ_slideshow_1.jpg', '<p>s3</p>', NULL),
+(2, '2', 'QKWS_banner7.png', 'tgg', NULL),
 (3, '3', 'EpeY_5n.jpg', 'slide3', NULL);
 
 -- --------------------------------------------------------
@@ -161,9 +162,10 @@ INSERT INTO `tintucs` (`id`, `tieude`, `tieudekhongdau`, `tomtat`, `noidung`, `H
 (5, 'tt6', 'tt6', 'Với 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa máy tính, Wynads sẽ cam kết đảm bảo sẽ thiết kế thành công thương hiệu cho của bạn.', 'Với 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa máy tính, Wynads sẽ cam kết đảm bảo sẽ thiết kế thành công thương hiệu cho của bạn. Với 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa máy tính, Wynads sẽ cam kết đảm bảo sẽ thiết kế thành công thương hiệu cho của bạn.', 'R3eR_Clipboard.png', 1, 0, '2017-09-25 21:28:21', '2017-09-25 21:28:21'),
 (6, 'ttt77', 'ttt77', '<p>t7t7t7</p>', '<h4>&nbsp;HÌNH QUẢNG CÁO 2D, 3D Bạn biết rõ ràng là bất cứ thương hiệu mạnh nào trên thế giới cũng đều có&nbsp;&nbsp;HÌNH QUẢNG CÁO 2D, 3D Bạn biết rõ ràng là bất cứ thương hiệu mạnh nào trên thế giới cũng đều có&nbsp;&nbsp;HÌNH QUẢNG CÁO 2D, 3D Bạn biết rõ ràng là bất cứ thương hiệu mạnh nào trên thế giới cũng đều có&nbsp;</h4>', 'Xb2y_17202816_1274313905939018_8240995701294489171_n.jpg', 1, 0, '2017-09-27 00:26:18', '2017-09-27 00:26:18'),
 (7, 'tttt8', 'tttt8', '<p>fdfdsfs<span style=\"color:rgb(166, 167, 170); font-family:hind,sans-serif; font-size:15px\">Với 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa mVới 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa m</span></p>', '<p>fdfdsfs<span style=\"color:rgb(166, 167, 170); font-family:hind,sans-serif; font-size:15px\">Với 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa mVới 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa m</span>fdfdsfs<span style=\"color:rgb(166, 167, 170); font-family:hind,sans-serif; font-size:15px\">Với 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa mVới 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa m</span></p>', '3tjb_banner6.png', 1, 0, '2017-09-27 00:26:50', '2017-09-27 00:26:50'),
-(8, 'tttttt9', 'tttttt9', '<p><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">Bên cạnh 400 suất học bổng Nguyễn Văn Đạo, ĐH FPT lần đầu tiên chọn ra 30 học sinh xuất sắc nhất để cấp học bổng toàn phần đào tạo từ cử nhân lên thẳng tiến sĩ, với tổng giá trị quỹ lên tới 5 triệu USD.Bên c</span></p>', '<p><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif; font-size:14px\">Bên cạnh 400 suất học bổng Nguyễn Văn Đạo, ĐH FPT lần đầu tiên chọn ra 30 học sinh xuất sắc nhất để cấp học bổng toàn phần đào tạo từ cử nhân lên thẳng tiến sĩ, với tổng giá trị quỹ lên tới 5 triệu USD.Bên cBên cạnh 400 suất học bổng Nguyễn Văn Đạo, ĐH FPT lần đầu tiên chọn ra 30 học sinh xuất sắc nhất để cấp học bổng toàn phần đào tạo từ cử nhân lên thẳng tiến sĩ, với tổng giá trị quỹ lên tới 5 triệu USD.Bên c</span></p>', 'A0kJ_cach-bao-quan-pin-laptop-hieu-qua.jpg', 1, 0, '2017-09-27 00:27:57', '2017-09-27 00:27:57'),
-(9, 'tin tức test thứ 10', 'tin-tuc-test-thu-10', '<p>tóm tắt&nbsp;tin tức test thứ 10</p>', '<p>nội dung&nbsp;tin tức test thứ 10 hình ảnh showw</p>', 'RtFD_acer-r3-131t_400copy-400x400.png', 1, 0, '2017-09-27 00:52:31', '2017-09-27 00:52:31'),
-(10, 'test tin tức', 'test-tin-tuc', 'test tin tức', '<p>test tin tức nội dung tin tức áda</p>', '5Ucl_skifree6.jpg', 1, 0, '2017-09-27 00:57:07', '2017-09-27 00:57:07');
+(8, 'tttttt9', 'tttttt9', 'Bên cạnh 400 suất học bổng Nguyễn Văn Đạo, ĐH FPT lần đầu tiên chọn ra 30 học sinh xuất sắc nhất để cấp học bổng toàn phần đào tạo từ cử nhân lên thẳng tiến sĩ, với tổng giá trị quỹ lên tới 5 triệu USD.Bên c</span></p>', 'Bên cạnh 400 suất học bổng Nguyễn Văn Đạo, ĐH FPT lần đầu tiên chọn ra 30 học sinh xuất sắc nhất để cấp học bổng toàn phần đào tạo từ cử nhân lên thẳng tiến sĩ, với tổng giá trị quỹ lên tới 5 triệu USD.Bên cBên cạnh 400 suất học bổng Nguyễn Văn Đạo, ĐH FPT lần đầu tiên chọn ra 30 học sinh xuất sắc nhất để cấp học bổng toàn phần đào tạo từ cử nhân lên thẳng tiến sĩ, với tổng giá trị quỹ lên tới 5 triệu USD.Bên', 'A0kJ_cach-bao-quan-pin-laptop-hieu-qua.jpg', 1, 0, '2017-09-27 00:27:57', '2017-09-28 21:41:15'),
+(9, 'tin tức test thứ 10', 'tin-tuc-test-thu-10', 'tóm tắt tin tức test thứ 10', 'nội dung tin tức test thứ 10 hình ảnh showw', 'RtFD_acer-r3-131t_400copy-400x400.png', 1, 0, '2017-09-27 00:52:31', '2017-10-02 00:58:10'),
+(10, 'test tin tức', 'test-tin-tuc', 'test tin tức', '<p>test tin tức nội dung tin tức áda</p>', '5Ucl_skifree6.jpg', 1, 0, '2017-09-27 00:57:07', '2017-09-27 00:57:07'),
+(11, 'tin tức test thứ 11', 'tin-tuc-test-thu-11', 'fdss di đâu', 'một hai ba bon nam', 'nLPu_PHwYf78eMi0PzA-1-l-5750-1480932026.jpg', 1, 0, '2017-09-28 21:44:07', '2017-10-02 00:57:03');
 
 -- --------------------------------------------------------
 
@@ -243,7 +245,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT cho bảng `khachhangs`
 --
 ALTER TABLE `khachhangs`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT cho bảng `loaitins`
 --
@@ -258,7 +260,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT cho bảng `slides`
 --
 ALTER TABLE `slides`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT cho bảng `theloais`
 --
@@ -268,7 +270,7 @@ ALTER TABLE `theloais`
 -- AUTO_INCREMENT cho bảng `tintucs`
 --
 ALTER TABLE `tintucs`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 --
 -- AUTO_INCREMENT cho bảng `users`
 --
