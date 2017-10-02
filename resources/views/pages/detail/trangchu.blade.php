@@ -18,6 +18,7 @@
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-chemistry"></i>
+                <img class="img-responsive" src="img/dichvu/logo2.jpg" alt="Content Image">
               </div>
               <div class="service-info">
                 <h3>Thiết kế LoGo NameCard theo phong thủy</h3>
@@ -33,6 +34,8 @@
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-screen-tablet"></i>
+                <img class="img-responsive" src="img/dichvu/logo3.jpg" alt="Content Image">
+
               </div>
               <div class="service-info">
                 <h3>Giải pháp thương hiệu</h3>
@@ -48,6 +51,8 @@
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-badge"></i>
+                <img class="img-responsive" src="img/dichvu/logo4.png" alt="Content Image">
+
               </div>
               <div class="service-info">
                 <h3>Video InTro</h3>
@@ -66,6 +71,7 @@
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-notebook"></i>
+                <img class="img-responsive" src="img/dichvu/logo5.jpg" alt="Content Image">
               </div>
               <div class="service-info">
                 <h3>Đăng kí bảo hộ độc quyền</h3>
@@ -82,6 +88,7 @@
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-speedometer"></i>
+                <img class="img-responsive" src="img/dichvu/logo6.png" alt="Content Image">
               </div>
               <div class="service-info">
                 <h3>Phim hoạt hình quản cáo 2D,3D</h3>
@@ -176,6 +183,9 @@
           </div>
           <div class="swiper-slide">
             <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
+          </div>
+          <div class="swiper-slide">
+            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
           </div>
           <div class="swiper-slide">
             <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">

@@ -62,7 +62,7 @@
         </a>
         <ul class="sub">
           <li><a class="" href="{{route('ds-khachhang')}}">Danh sách khách hàng</a></li>
-          <li><a class="" href="{{route('them-slide')}}">Thêm khách hàng</a></li>
+          <li><a class="" href="{{route('them-khachhang')}}">Thêm khách hàng</a></li>
         </ul>
       </li>
       <li class="sub-menu">

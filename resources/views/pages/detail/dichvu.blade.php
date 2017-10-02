@@ -4,7 +4,7 @@
 <!--========== PARALLAX ==========-->
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
   <div class="parallax-content container">
-    <h1 class="carousel-title">Dịch vụ</h1>
+    <img class="img-responsive" src="img/dichvu/logo1.jpg" alt="Content Image">
     <p style="color:yellow"><b>Hotline : Ms.Hau 0904.192028</b></p>
     <h1 style="color: white">- Thiết kế LoGo NameCard theo phong thủy</h1>
     <h1 style="color: white">- Video Intro LoGo</h1>
@@ -21,7 +21,17 @@
   <div class="row margin-b-40">
     <div class="col-sm-6">
       <h2>Sản phẩm của WynAds</h2>
-      <p>Với 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa máy tính, Wynads sẽ cam kết đảm bảo sẽ thiết kế thành công thương hiệu cho của bạn. Với bộ nhận diện thương hiệu chuyên nghiệp, ấn tượng và sáng tạo nhất. Sẽ giúp bạn tự tin quảng bá thương hiệu của mình.</p>
+      <p style="color: #111111"><b>Với 15 năm kinh nghiệm trong lĩnh vực thiết kế nghệ thuật và đồ họa máy tính,
+          Wynads sẽ cam kết đảm bảo sẽ thiết kế thành công thương hiệu cho của bạn.
+          Với bộ nhận diện thương hiệu chuyên nghiệp, ấn tượng và sáng tạo nhất.
+          Sẽ giúp bạn tự tin quảng bá thương hiệu của mình.</b></p>
+      <p style="color: #111111"><b> Chúng tôi tin tưởng sẽ luôn là người đồng hành đáng tin cậy trên bước đường thành
+          công của thương hiệu.
+          Chúng tôi tin vào giá trị cốt lõi vĩnh hằng và với đạo đức tu luyện hằng ngày của mình để đem đến </br></br>
+          GIÁ TRỊ THƯƠNG HIỆU – NGUYỆN CHO KHÁCH HÀNG THÀNH CÔNG.</b></p>
+    </div>
+    <div class="col-sm-4 col-sm-offset-1">
+      <img class="img-responsive" src="img/dichvu/1b.png" alt="Our Office">
     </div>
   </div>
   <!--// end row -->

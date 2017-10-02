@@ -5,7 +5,8 @@
 <!--========== PARALLAX ==========-->
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
   <div class="parallax-content container">
-    <h1 class="carousel-title">Wynads</h1>
+    {{--<h1 class="carousel-title">Wynads</h1>--}}
+    <img class="img-responsive" src="img/dichvu/logo1.jpg" alt="Content Image">
     <p style="color:yellow"><b>Hotline : Ms.Hau 0904.192028</b></p>
     <p>Giới thiệu về WYNADS</p>
   </div>

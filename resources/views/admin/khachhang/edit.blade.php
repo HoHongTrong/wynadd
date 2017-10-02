@@ -5,7 +5,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
-          <h1 class="page-header">Slide
+          <h1 class="page-header">Sữa khách hàng
             <small style="color: #b64c4c">{{$khachhang->ten}}</small>
           </h1>
         </div>
@@ -39,8 +39,7 @@
             </div>
             <div class="form-group">
               <label>Bình Luận</label>
-              <textarea id="demo" name="BinhLuan" class="form-control ckeditor" rows="5"
-                        value="{{$khachhang->binhluan}}"></textarea>
+              <textarea id="demo" name="BinhLuan" class="form-control ckeditor" rows="5">{{$khachhang->binhluan}}</textarea>
             </div>
 
             <div class="form-group">
