@@ -1,7 +1,5 @@
 @extends('pages.layout.index')
 @section('content')
-
-
 <!--========== PARALLAX ==========-->
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
   <div class="parallax-content container">
@@ -11,7 +9,6 @@
     <p>Giới thiệu về WYNADS</p>
   </div>
 </div>
-
 <div class="content-lg container">
   <div class="row margin-b-20">
     <div class="col-sm-6">
@@ -19,13 +16,11 @@
       <h4>VỀ CHÚNG TÔI WYNADS</h4>
     </div>
   </div>
-
   <div class="row" id="customaa" >
     <div class="col-sm-7 sm-margin-b-50" >
       <div class="margin-b-30" >
         <p style="color: #111111">Chúng ta vẫn biết rằng, làm việc với một đoạn văn bản dễ đọc và rõ nghĩa dễ gây rối trí và cản trở việc tập trung vào yếu tố trình bày văn bản. Lorem Ipsum có ưu điểm hơn so với đoạn văn bản chỉ gồm nội dung kiểu “Nội dung, nội dung, nội dung” là nó khiến văn bản giống thật hơn, bình thường hơn. Nhiều phần mềm thiết kế</p>
       </div >
-
       <h5>Sứ Mệnh</h5>
       <p style="color: #111111">Tạo nên các sản phẩm nghệ thuật sáng tạo, tác phẩm tranh sơn dầu, màu nước.
       Thiết kê logo. <br>
@@ -56,18 +51,13 @@
         Chúng tôi tin tưởng sẽ luôn là người đồng hành đáng tin cậy trên bước đường thành công của thương hiệu.
         Chúng tôi tin vào giá trị cốt lõi vĩnh hằng và với đạo đức tu luyện hằng ngày của mình để đem
         đến GIÁ TRỊ THƯƠNG HIỆU – NGUYỆN CHO KHÁCH HÀNG THÀNH CÔNG.</p>
-
-
-
     </div>
     <div class="col-sm-4 col-sm-offset-1">
       <img class="img-responsive" src="img/640x380/01.jpg" alt="Our Office">
     </div>
   </div>
-  <!--// end row -->
 </div>
 <!-- End About -->
-
 <!-- Service -->
 <div class="bg-color-sky-light" data-auto-height="true">
   <div class="content-lg container">
@@ -78,7 +68,6 @@
       </div>
     </div>
     <div class="row row-space-1 margin-b-2">
-
       <div class="col-sm-4 sm-margin-b-2" style="background-color: #00aced">
         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
           <div class="service" data-height="height">
@@ -93,7 +82,6 @@
           </div>
         </div>
       </div>
-
       <div class="col-sm-4 sm-margin-b-2" style="background-color: red">
         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
           <div class="service" data-height="height">
@@ -108,7 +96,6 @@
           </div>
         </div>
       </div>
-
       <div class="col-sm-4" style="background-color: yellow">
         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
           <div class="service" data-height="height">
@@ -125,7 +112,6 @@
       </div>
     </div>
     <!--// end row -->
-
     <div class="row row-space-1" >
       <div class="col-sm-4 sm-margin-b-2" style="background-color: #2ac845">
         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
@@ -142,7 +128,6 @@
           </div>
         </div>
       </div>
-
       <div class="col-sm-4 sm-margin-b-2" style="background-color: #00aced">
         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
           <div class="service" data-height="height">
@@ -161,13 +146,11 @@
   </div>
 </div>
 <!-- End Service -->
-
 <!-- Testimonials -->
 <div class="content-lg container">
   <div class="row">
     <div class="col-sm-9">
       <h2>Notes From CEO</h2>
-
       <!-- Swiper Testimonials -->
       <div class="swiper-slider swiper-testimonials">
         <!-- Swiper Wrapper -->
@@ -196,7 +179,6 @@
           </div>
         </div>
         <!-- End Swiper Wrapper -->
-
         <!-- Pagination -->
         <div class="swiper-testimonials-pagination"></div>
       </div>
@@ -217,7 +199,6 @@
       </div>
     </div>
     <!--// end row -->
-
     <div class="row">
       <!-- Team -->
       <div class="col-sm-4 sm-margin-b-50">
@@ -231,7 +212,6 @@
         <a class="link" href="#">Read More</a>
       </div>
       <!-- End Team -->
-
       <!-- Team -->
       <div class="col-sm-4 sm-margin-b-50">
         <div class="bg-color-white margin-b-20">
@@ -244,7 +224,6 @@
         <a class="link" href="#">Read More</a>
       </div>
       <!-- End Team -->
-
       <!-- Team -->
       <div class="col-sm-4 sm-margin-b-50">
         <div class="bg-color-white margin-b-20">
@@ -263,26 +242,17 @@
 </div>
 <!-- End Team -->
 <!--========== END PAGE LAYOUT ==========-->
-
-
 <!-- Back To Top -->
 <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
-
-<!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-<!-- CORE PLUGINS -->
 <script src="vendor/jquery.min.js" type="text/javascript"></script>
 <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
 <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-
-<!-- PAGE LEVEL PLUGINS -->
 <script src="vendor/jquery.easing.js" type="text/javascript"></script>
 <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
 <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
 <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
 <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
 <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
-
-<!-- PAGE LEVEL SCRIPTS -->
 <script src="js/layout.min.js" type="text/javascript"></script>
 <script src="js/components/swiper.min.js" type="text/javascript"></script>
 <script src="js/components/wow.min.js" type="text/javascript"></script>

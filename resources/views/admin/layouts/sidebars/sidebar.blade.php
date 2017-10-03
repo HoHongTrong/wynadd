@@ -1,6 +1,5 @@
 <aside>
   <div id="sidebar"  class="nav-collapse ">
-    <!-- sidebar menu start-->
     <ul class="sidebar-menu">
       <li class="active">
         <a class="" href="index.html">
@@ -41,7 +40,6 @@
           <li><a class="" href="{{route('them-tintuc')}}">Thêm tin tức</a></li>
         </ul>
       </li>
-
       <li class="sub-menu">
         <a href="javascript:;" class="">
           <i class="icon_documents_alt"></i>
@@ -53,7 +51,6 @@
           <li><a class="" href="{{route('them-slide')}}">Thêm slide</a></li>
         </ul>
       </li>
-
       <li class="sub-menu">
         <a href="javascript:;" class="">
           <i class="icon_table"></i>
@@ -78,8 +75,6 @@
           <li><a class="" href="404.html">404 Error</a></li>
         </ul>
       </li>
-
     </ul>
-    <!-- sidebar menu end-->
   </div>
 </aside>

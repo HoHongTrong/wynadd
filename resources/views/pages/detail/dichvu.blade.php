@@ -1,7 +1,6 @@
 @extends('pages.layout.index')
 @section('content')
 
-<!--========== PARALLAX ==========-->
 <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
   <div class="parallax-content container">
     <img class="img-responsive" src="img/dichvu/logo1.jpg" alt="Content Image">
@@ -13,9 +12,6 @@
     <h1 style="color: white">- Đăng kí bảo hộ độc quyền thương hiệu</h1>
   </div>
 </div>
-<!--========== PARALLAX ==========-->
-
-<!--========== PAGE LAYOUT ==========-->
 <!-- Our Exceptional Solutions -->
 <div class="content-lg container">
   <div class="row margin-b-40">
@@ -46,7 +42,6 @@
         </div>
       </div>
       <div class="row row-space-1 margin-b-2">
-
         <div class="col-sm-4 sm-margin-b-2" style="background-color: #00aced">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
             <div class="service" data-height="height">
@@ -61,7 +56,6 @@
             </div>
           </div>
         </div>
-
         <div class="col-sm-4 sm-margin-b-2" style="background-color: red">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
             <div class="service" data-height="height">
@@ -76,7 +70,6 @@
             </div>
           </div>
         </div>
-
         <div class="col-sm-4" style="background-color: yellow">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
             <div class="service" data-height="height">
@@ -93,7 +86,6 @@
         </div>
       </div>
       <!--// end row -->
-
       <div class="row row-space-1" >
         <div class="col-sm-4 sm-margin-b-2" style="background-color: #2ac845">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
@@ -110,7 +102,6 @@
             </div>
           </div>
         </div>
-
         <div class="col-sm-4 sm-margin-b-2" style="background-color: #00aced">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
             <div class="service" data-height="height">
@@ -129,8 +120,6 @@
     </div>
   </div>
   <!-- End Service -->
-
-
 <!-- Testimonials -->
 <div class="content-lg container">
   <div class="row">
@@ -149,7 +138,7 @@
                   <img  style="position: relative;top: -50px;" class="img-responsive" src="upload/khachhang/{{$kh->Hinh}}" alt="Content Image">
                 </div>
               </div>
-              <p><span class="fweight-700 color-link">A/C : {{$kh->ten}}</span>, Chức vụ : <td>{{$kh->chucvu}}</td> </p>
+              <p style="color: #000"><span class="fweight-700 color-link">A/C : {{$kh->ten}}</span>, Chức vụ : <td>{{$kh->chucvu}}</td> </p>
               <div class="margin-b-20">
                 {{$kh->binhluan}}
               </div>
@@ -168,16 +157,7 @@
   </div>
   <!--// end row -->
 </div>
-<!-- End Testimonials -->
-
-  <!--========== END PAGE LAYOUT ==========-->
-
-
-<!-- Back To Top -->
 <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
-
-<!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-<!-- CORE PLUGINS -->
 <script src="vendor/jquery.min.js" type="text/javascript"></script>
 <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
 <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>

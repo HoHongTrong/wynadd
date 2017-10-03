@@ -41,21 +41,17 @@
               <label>Bình Luận</label>
               <textarea id="demo" name="BinhLuan" class="form-control ckeditor" rows="5">{{$khachhang->binhluan}}</textarea>
             </div>
-
             <div class="form-group">
               <label>Hình Ảnh</label>
               <p><img src="{{ asset("/upload/khachhang/$khachhang->Hinh") }}"/></p>
               <input type="file" name="Hinh"/>
             </div>
-
             <button type="submit" class="btn btn-default">Sửa</button>
             <button type="reset" class="btn btn-default">Reset</button>
           </form>
         </div>
       </div>
-      <!-- /.row -->
     </div>
-    <!-- /.container-fluid -->
   </div>
   <!-- /#page-wrapper -->
 

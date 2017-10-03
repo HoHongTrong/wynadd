@@ -12,8 +12,7 @@
         </div>
       </div>
       <div class="row row-space-1 margin-b-2">
-
-        <div class="col-sm-4 sm-margin-b-2" style="background-color: #00aced">
+        <div class="col-sm-4 sm-margin-b-2">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
             <div class="service" data-height="height">
               <div class="service-element">
@@ -28,14 +27,12 @@
             </div>
           </div>
         </div>
-
-        <div class="col-sm-4 sm-margin-b-2" style="background-color: red">
+        <div class="col-sm-4 sm-margin-b-2">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-screen-tablet"></i>
                 <img class="img-responsive" src="img/dichvu/logo3.jpg" alt="Content Image">
-
               </div>
               <div class="service-info">
                 <h3>Giải pháp thương hiệu</h3>
@@ -45,14 +42,12 @@
             </div>
           </div>
         </div>
-
-        <div class="col-sm-4" style="background-color: yellow">
+        <div class="col-sm-4">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
             <div class="service" data-height="height">
               <div class="service-element">
                 <i class="service-icon icon-badge"></i>
                 <img class="img-responsive" src="img/dichvu/logo4.png" alt="Content Image">
-
               </div>
               <div class="service-info">
                 <h3>Video InTro</h3>
@@ -64,9 +59,8 @@
         </div>
       </div>
       <!--// end row -->
-
       <div class="row row-space-1" >
-        <div class="col-sm-4 sm-margin-b-2" style="background-color: #2ac845">
+        <div class="col-sm-4 sm-margin-b-2">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
             <div class="service" data-height="height">
               <div class="service-element">
@@ -82,8 +76,7 @@
             </div>
           </div>
         </div>
-
-        <div class="col-sm-4 sm-margin-b-2" style="background-color:#000000">
+        <div class="col-sm-4 sm-margin-b-2">
           <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
             <div class="service" data-height="height">
               <div class="service-element">
@@ -102,7 +95,6 @@
     </div>
   </div>
   <!-- End Service -->
-
   <!-- Promo Section -->
   <div class="promo-section overflow-h">
     <div class="container">
@@ -112,12 +104,11 @@
             <div class="promo-section-col">
               <h2>Chúng tôi WynAds</h2>
               <p style="color: #111111"><b>Chúng tôi có 15 năm kinh nghiệm về thiết kế đồ họa và đặc biệt là gần 8 năm kinh nghiệm làm phim hoạt hình Nhật bản.</b>
-                Chúng tôi cực kỳ tự hào vì điều này vì khi nói về giá trị nghệ thuật thì chỉ có Nhật Bản là đứng đầu trên thế giới.</p>
-              <p style="color: #111111"><b>Sáng tạo</b> ra những giá trị thương hiệu thiết thực gắn liền với xúc cảm khách hàng với sản phẩm dịch vụ, phù hợp với từng thời kỳ phát triển của khách hàng.<br>
-
+                Chúng tôi cực kỳ tự hào vì điều này vì khi nói về giá trị nghệ thuật thì chỉ có Nhật Bản là đứng đầu trên thế giới.<br>
+                <b>Sáng tạo</b> ra những giá trị thương hiệu thiết thực gắn liền với xúc cảm khách hàng với sản phẩm dịch vụ, phù hợp với từng thời kỳ phát triển của khách hàng.<br>
                 Giúp thương hiệu của công ty, doanh nghiệp trở có được thiết kế ấn tượng, phù hợp giai đoạn phát triển của doanh nghiệp mình.<br>
-
-                Luôn sáng tạo, nghiên cứu và học hỏi những thiết kế đại diện cho từng doanh nghiệp được phù hợp và phát triển cùng với nguồn năng lượng của vũ trụ.</p>
+                Luôn sáng tạo, nghiên cứu và học hỏi những thiết kế đại diện cho từng doanh nghiệp được phù hợp và phát triển cùng với nguồn năng lượng của vũ trụ.
+              </p>
             </div>
           </div>
         </div>
@@ -128,8 +119,6 @@
     </div>
   </div>
   <!-- End Promo Section -->
-
-
   <!-- Latest Products -->
   <div class="content-lg container">
     <div class="row margin-b-40">
@@ -139,7 +128,6 @@
       </div>
     </div>
     <!--// end row -->
-
     <div class="row">
     @foreach($tintuc as $tt)
       <!-- Latest Products -->
@@ -156,49 +144,37 @@
         </div>
         <!-- End Latest Products -->
       @endforeach
-
     </div>
     <!--// end row -->
   </div>
   <!-- End Latest Products -->
-
   <!-- Clients -->
   <div class="bg-color-sky-light">
     <div class="content-lg container">
-      <!-- Swiper Clients -->
       <div class="swiper-slider swiper-clients">
-        <!-- Swiper Wrapper -->
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
+            <img class="swiper-clients-img" src="img/clients/1.png" alt="Clients Logo">
           </div>
           <div class="swiper-slide">
-            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
+            <img class="swiper-clients-img" src="img/clients/2.png" alt="Clients Logo">
           </div>
           <div class="swiper-slide">
-            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
+            <img class="swiper-clients-img" src="img/clients/3.png" alt="Clients Logo">
           </div>
           <div class="swiper-slide">
-            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
+            <img class="swiper-clients-img" src="img/clients/4.png" alt="Clients Logo">
           </div>
           <div class="swiper-slide">
-            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
+            <img class="swiper-clients-img" src="img/clients/5.png" alt="Clients Logo">
           </div>
           <div class="swiper-slide">
-            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
-          </div>
-          <div class="swiper-slide">
-            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
+            <img class="swiper-clients-img" src="img/clients/6.png" alt="Clients Logo">
           </div>
         </div>
-        <!-- End Swiper Wrapper -->
       </div>
-      <!-- End Swiper Clients -->
     </div>
   </div>
-  <!-- End Clients -->
-
-
 
   <!-- Work -->
   <div class="bg-color-sky-light overflow-h">
@@ -206,13 +182,9 @@
       <div class="row margin-b-40">
         <div class="col-sm-6">
           <h2>WynAds cung cấp</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua
-            enim minim veniam exercitation</p>
+          <p></p>
         </div>
       </div>
-      <!--// end row -->
-
-      <!-- Masonry Grid -->
       <div class="masonry-grid">
         <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
         <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8">
@@ -227,7 +199,6 @@
             </div>
             <a class="content-wrapper-link" href="logo-phong-thuy"></a>
           </div>
-          <!-- End Work -->
         </div>
         <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
           <!-- Work -->
@@ -241,10 +212,8 @@
             </div>
             <a class="content-wrapper-link" href="giai-phap-thuong-hieu"></a>
           </div>
-          <!-- End Work -->
         </div>
         <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
-          <!-- Work -->
           <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".3s">
             <div class="work-overlay">
               <img class="full-width img-responsive" src="img/640x380/01.jpg" alt="Portfolio Image">
@@ -255,7 +224,6 @@
             </div>
             <a class="content-wrapper-link" href="video-intro"></a>
           </div>
-          <!-- End Work -->
         </div>
         <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
           <!-- Work -->
@@ -269,7 +237,6 @@
             </div>
             <a class="content-wrapper-link" href="dang-ki-bao-ho-doc-quyen"></a>
           </div>
-          <!-- End Work -->
         </div>
         <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
           <!-- Work -->
@@ -283,13 +250,9 @@
             </div>
             <a class="content-wrapper-link" href="video-2d-3d"></a>
           </div>
-          <!-- End Work -->
         </div>
       </div>
-      <!-- End Masonry Grid -->
     </div>
   </div>
-  <!-- End Work -->
   <!--========== END PAGE LAYOUT ==========-->
-
 @endsection
