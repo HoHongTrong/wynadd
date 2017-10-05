@@ -26,12 +26,12 @@
           <!-- End List -->
         </div>
         <div class="col-sm-5 sm-margin-b-30">
-          <h2 class="color-white">Send Us A Note</h2>
-          <input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
+          <h2 class="color-white">Gởi cho chúng tôi</h2>
+          <input type="text" class="form-control footer-input margin-b-20" placeholder="Tên" required>
           <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
           <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
-          <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
-          <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
+          <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Tin Nhắn" required></textarea>
+          <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Gởi</button>
         </div>
       </div>
       <!--// end row -->

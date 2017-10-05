@@ -33,7 +33,7 @@
       <div class="col-sm-7 sm-margin-b-50">
 
         <div class="margin-b-30">
-          <p style="color: #111111">{{$tintuc->noidung}}</p>
+          <p style="color: #111111">{!!$tintuc->noidung!!}</p>
         </div>
       </div>
     </div>
@@ -46,7 +46,7 @@
       <div class="panel-heading"><b>Tin nổi bật</b></div>
       <div class="panel-body">
         <!-- item -->
-        @foreach($tinnoibat->take(4) as $tt)
+        @foreach($tinnoibat->take(5) as $tt)
           <div class="row" style="margin-top: 10px;">
             <div class="col-md-5">
               <a href="tintuc/{{$tt->id}}/{{$tt['tieudekhongdau']}}">

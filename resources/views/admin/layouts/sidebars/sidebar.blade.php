@@ -10,28 +10,6 @@
       <li class="sub-menu">
         <a href="javascript:;" class="">
           <i class="icon_document_alt"></i>
-          <span>Thể Loại</span>
-          <span class="menu-arrow arrow_carrot-right"></span>
-        </a>
-        <ul class="sub">
-          <li><a class="" href="{{route('ds-theloai')}}">Danh sách thể loại</a></li>
-          <li><a class="" href="{{route('them-theloai')}}">Thêm thể loại</a></li>
-        </ul>
-      </li>
-      <li class="sub-menu">
-        <a href="javascript:;" class="">
-          <i class="icon_document_alt"></i>
-          <span>Loại Tin</span>
-          <span class="menu-arrow arrow_carrot-right"></span>
-        </a>
-        <ul class="sub">
-          <li><a class="" href="{{route('ds-loaitin')}}">Danh sách loại tin</a></li>
-          <li><a class="" href="{{route('them-loaitin')}}">Thêm loại tin</a></li>
-        </ul>
-      </li>
-      <li class="sub-menu">
-        <a href="javascript:;" class="">
-          <i class="icon_document_alt"></i>
           <span>Tin Tức</span>
           <span class="menu-arrow arrow_carrot-right"></span>
         </a>

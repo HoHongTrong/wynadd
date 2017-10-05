@@ -30,36 +30,12 @@
           <form action="{{route('sua-tintuc',['id'=>$tintuc->id])}}" method="POST" enctype="multipart/form-data">
             <input type="hidden" name="_token" value="{{csrf_token()}}"/>
             <div class="form-group">
-              <label>Thể loại :</label>
-              <select class="form-control" name="TheLoai" id="TheLoai">
-                @foreach($theloai as $tl)
-                  <option
-                    @if($tintuc->LoaiTin->TheLoai->id ==$tl->id)
-                    {{"selected"}}
-                    @endif
-                    value="{{$tl->id}}">{{$tl->ten}}</option>
-                @endforeach
-              </select>
-            </div>
-            <div class="form-group">
-              <label>Loại tin :</label>
-              <select class="form-control" name="LoaiTin" id="LoaiTin">
-                @foreach($loaitin as $lti)
-                  <option
-                    @if($tintuc->LoaiTin->id ==$tl->id)
-                    {{"selected"}}
-                    @endif
-                    value="{{$lti->id}}">{{$lti->ten}}</option>
-                @endforeach
-              </select>
-            </div>
-            <div class="form-group">
               <label>Tiêu đề :</label>
               <input class="form-control" name="TieuDe" placeholder="Nhập tiêu đề" value="{{$tintuc->tieude}}"/>
             </div>
             <div class="form-group">
               <label>Tóm Tắt</label>
-              <textarea id="demo" name="TomTat" class="form-control ckeditor" rows="2">
+              <textarea id="demo" name="TomTat" class="form-control" rows="2">
                 {{$tintuc->tomtat}}
               </textarea>
             </div>
