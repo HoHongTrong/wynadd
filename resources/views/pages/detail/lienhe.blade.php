@@ -7,11 +7,6 @@
     <h1 class="carousel-title"></h1>
   </div>
 </div>
-<!--========== PARALLAX ==========-->
-
-<!--========== PAGE LAYOUT ==========-->
-<!-- Contact List -->
-
 <div class="section-seperator">
   <div class="content-lg container">
     <div class="row">
@@ -39,39 +34,11 @@
           </ul>
         </div>
       </div>
-      <!-- End Contact List -->
-
-      <!-- End Contact List -->
-    </div>
-    <!--// end row -->
-  </div>
-</div>
-<div class="promo-section overflow-h">
-  <div class="container">
-    <div class="clearfix">
-      <div class="ver-center">
-        <div class="ver-center-aligned">
-          <div class="promo-section-col">
-            <h2>WynAds</h2>
-            <h5>Chúng tôi có 15 năm kinh nghiệm về thiết kế đồ họa và đặc biệt là gần 6 năm kinh nghiệp làm phim hoạt hình Nhật bản. Chúng tôi cực kỳ tự hào vì điều này vì khi nói về giá trị nghệ thuật thì chỉ có Nhật Bản là đứng đầu trên thế giới.
-
-              Chúng tôi tin tưởng sẽ luôn là người đồng hành đáng tin cậy trên bước đường thành công của thương hiệu.</h5>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
-  <div class="promo-section-img-right">
-    <img  style="position: relative;top: -50px;" class="img-responsive" src="img/1920x1080/1n.jpg" alt="Content Image">
-  </div>
 </div>
-<!-- End Contact List -->
 
-<!-- Back To Top -->
 <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
-
-<!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-<!-- CORE PLUGINS -->
 <script src="vendor/jquery.min.js" type="text/javascript"></script>
 <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
 <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>

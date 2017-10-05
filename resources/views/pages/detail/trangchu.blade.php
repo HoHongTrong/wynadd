@@ -254,5 +254,6 @@
       </div>
     </div>
   </div>
+  <!--end khach hang-->
   <!--========== END PAGE LAYOUT ==========-->
 @endsection

@@ -36,7 +36,7 @@
           <td>{{$kh->chucvu}}</td>
           <td>{{$kh->binhluan}}</td>
           <td>
-            <img width="400px" height="" src="upload/khachhang/{{$kh->Hinh}}">
+            <img width="100px" height="" src="upload/khachhang/{{$kh->Hinh}}">
           </td>
           <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="{{route('xoa-khachhang',['id'=>$kh->id])}}"> Delete</a></td>
           <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="{{route('sua-khachhang',['id'=>$kh->id])}}">Edit</a></td>

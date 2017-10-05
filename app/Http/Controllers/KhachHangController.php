@@ -98,4 +98,9 @@ class KhachHangController extends Controller
 
   }
   //------------------End Edit----------------
+  public function getDelete($id) {
+    $tintuc = KhachHang::find($id);
+    $tintuc->delete();
+    return redirect('danhsach-khachhang')->with('thongbao', 'xóa khách hàng thành công');
+  }
 }
