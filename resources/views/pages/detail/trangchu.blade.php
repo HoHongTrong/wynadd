@@ -115,7 +115,7 @@
       </div>
     </div>
     <div class="promo-section-img-right">
-      <img style="position: relative;top: 45px;" class="img-responsive" src="img/970x970/banner2.jpg" alt="Content Image">
+      <img style="position: relative;" class="img-responsive" src="img/970x970/1a.png" alt="Content Image">
     </div>
   </div>
   <!-- End Promo Section -->

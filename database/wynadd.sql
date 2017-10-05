@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.2
--- Thời gian đã tạo: Th10 05, 2017 lúc 10:04 AM
+-- Thời gian đã tạo: Th10 05, 2017 lúc 11:38 AM
 -- Phiên bản máy phục vụ: 10.1.24-MariaDB
 -- Phiên bản PHP: 7.1.6
 
@@ -120,8 +120,9 @@ CREATE TABLE `slides` (
 
 INSERT INTO `slides` (`id`, `ten`, `Hinh`, `noidung`, `link`) VALUES
 (1, 's3', 'UfxZ_slideshow_1.jpg', '<p>s3</p>', NULL),
-(2, '2', 'QKWS_banner7.png', 'tgg', NULL),
-(3, '3', 'EpeY_5n.jpg', 'slide3', NULL);
+(2, '2', 'ze5u_Slider3.jpg', '<p>2</p>', NULL),
+(3, 'sl4', 'C4Qy_thiet-ke-bo-nhan-dien-thuong-hieu-chuyen-nghiep.jpg', '<p>1</p>', NULL),
+(4, '3', '2MFW_unnamed.jpg', '<p>q</p>', NULL);
 
 -- --------------------------------------------------------
 
@@ -259,7 +260,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT cho bảng `slides`
 --
 ALTER TABLE `slides`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT cho bảng `theloais`
 --
