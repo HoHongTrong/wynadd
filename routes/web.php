@@ -1,20 +1,5 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -75,6 +60,18 @@ Route::get('sua-khachhang/{id}',['as'=>'sua-khachhang','uses'=>'KhachHangControl
 Route::post('sua-khachhang/{id}',['as'=>'sua-khachhang','uses'=>'KhachHangController@postEdit']);
 
 Route::get('xoa-khachhang/{id}',['as'=>'xoa-khachhang','uses'=>'KhachHangController@getDelete']);
+
+//============================== Admin===============================================
+Route::get('danhsach-admin',['as'=>'ds-admin','uses'=>'AdminController@getList']);
+
+Route::get('them-admin',['as'=>'them-admin','uses'=>'AdminController@getAdd']);
+Route::post('them-admin',['as'=>'them-admin','uses'=>'AdminController@postAdd']);
+
+Route::get('sua-admin/{id}',['as'=>'sua-admin','uses'=>'AdminController@getEdit']);
+Route::post('sua-admin/{id}',['as'=>'sua-admin','uses'=>'AdminController@postEdit']);
+
+Route::get('xoa-admin/{id}',['as'=>'xoa-admin','uses'=>'AdminController@getDelete']);
+
 
 //=============================== Fronend =====================================================
 Route::get('trangchu',['as'=>'trangchu','uses'=>'PagesController@trangchu']);

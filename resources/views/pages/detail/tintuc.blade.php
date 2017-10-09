@@ -46,7 +46,7 @@
       <div class="panel-heading"><b>Tin nổi bật</b></div>
       <div class="panel-body">
         <!-- item -->
-        @foreach($tinnoibat->take(8) as $tt)
+        @foreach($tinnoibat as $tt)
           <div class="row" style="margin-top: 10px;">
             <div class="col-md-5">
               <a href="tintuc/{{$tt->id}}/{{$tt['tieudekhongdau']}}">
@@ -61,6 +61,7 @@
           </div>
       @endforeach
       <!-- end item -->
+        {!! $tinnoibat->links() !!}
       </div>
     </div>
   </div>

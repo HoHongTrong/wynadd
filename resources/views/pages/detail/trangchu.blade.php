@@ -138,7 +138,8 @@
                 <img width="360px" height="240px" class="img-responsive" src="upload/tintuc/{{$tt['Hinh']}}" alt=""></a>
             </div>
           </div>
-          <h4><a href="tintuc/{{$tt['id']}}/{{$tt['tieudekhongdau']}}">{{$tt->tieude}}</a> <span class="text-uppercase margin-l-20">Tin Tức WYNADS</span></h4>
+          <h4><a href="tintuc/{{$tt['id']}}/{{$tt['tieudekhongdau']}}">{{$tt->tieude}}</a><br>
+            <span class="text-uppercase margin-l-20">Tin Tức WYNADS</span></h4>
           <p>{{$tt->tomtat}}</p>
           <a class="link" href="tintuc/{{$tt['id']}}/{{$tt['tieudekhongdau']}}">Xem thêm</a>
         </div>
