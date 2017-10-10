@@ -24,13 +24,13 @@
 
 <div class="container">
 
-    <form class="login-form" action="{{route('login')}}" method="post">
+    <form class="login-form" action="login" method="post">
         {!! csrf_field() !!}
         <div class="login-wrap">
             <p class="login-img"><i class="icon_lock_alt"></i></p>
             <div class="input-group">
                 <span class="input-group-addon"><i class="icon_profile"></i></span>
-                <input type="text" class="form-control" name="username" placeholder="Username" autofocus>
+                <input type="text" class="form-control" name="email" placeholder="Username" autofocus>
             </div>
             <div class="input-group">
                 <span class="input-group-addon"><i class="icon_key_alt"></i></span>

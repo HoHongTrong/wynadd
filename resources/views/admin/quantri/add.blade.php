@@ -5,7 +5,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
-        <h1 class="page-header">Slide
+        <h1 class="page-header">Quản trị
           <small style="color: #2A3542">Thêm</small>
         </h1>
       </div>
@@ -26,27 +26,26 @@
           </div>
         @endif
 
-        {{-- enctype="multipart/form-data" dùng để upload hình lên --}}
-        <form action="{{route('them-slide')}}" method="POST" enctype="multipart/form-data">
+        <form action="{{route('them-admin')}}" method="POST" >
           <input type="hidden" name="_token" value="{{csrf_token()}}"/>
           <div class="form-group">
             <label>Tên:</label>
-            <input class="form-control" name="Ten" placeholder="Nhập tên slide"/>
+            <input class="form-control" name="name" placeholder="Nhập tên người quản trị"/>
           </div>
           <div class="form-group">
-            <label>Nội Dung</label>
-            <textarea id="demo" name="NoiDung" class="form-control ckeditor" rows="2"></textarea>
+            <label>Email :</label>
+            <input type="email" class="form-control" name="email" placeholder="Nhập email"/>
           </div>
           <div class="form-group">
-            <label>Link:</label>
-            <input class="form-control" name="link" placeholder="Nhập link"/>
+            <label>Password</label>
+            <input type="password" class="form-control" name="password" placeholder="Nhập mật khẩu"/>
           </div>
           <div class="form-group">
-            <label>Hình Ảnh</label>
-            <input type="file" name="Hinh"/>
+            <label>Nhập lại password</label>
+            <input type="password" class="form-control" name="passwordAgain" placeholder="Nhập lại mật khẩu"/>
           </div>
 
-          <button type="submit" class="btn btn-default">Thêm slide</button>
+          <button type="submit" class="btn btn-default">Thêm Người quản trị</button>
           <button type="reset" class="btn btn-default">Reset</button>
         </form>
       </div>

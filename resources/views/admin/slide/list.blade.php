@@ -35,7 +35,7 @@
           <td>{{$sd->ten}}</td>
           <td>{{$sd->noidung}}</td>
           <td>
-            <img width="400px" height="" src="upload/slide/{{$sd->Hinh}}">
+            <img width="400px" height="" src="../upload/slide/{{$sd->Hinh}}">
           </td>
           <td>{{$sd->link}}</td>
           <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="{{route('xoa-slide',['id'=>$sd->id])}}"> Delete</a></td>

@@ -22,14 +22,18 @@
           <th>ID</th>
           <th>Tên</th>
           <th>email</th>
+          <th>Quyền</th>
+          <th>Delete</th>
+          <th>Edit</th>
         </tr>
         </thead>
         <tbody>
         @foreach($user as $u)
         <tr class="odd gradeX" align="center">
           <td>{{$u->id}}</td>
-          <td>{{$u->ten}}</td>
+          <td>{{$u->name}}</td>
           <td>{{$u->email}}</td>
+          <td>{{$u->quyen}}</td>
           <td class="center"><i class="fa fa-trash-o  fa-fw"></i><a href="{{route('xoa-admin',['id'=>$u->id])}}"> Delete</a></td>
           <td class="center"><i class="fa fa-pencil fa-fw"></i> <a href="{{route('sua-admin',['id'=>$u->id])}}">Edit</a></td>
         </tr>
