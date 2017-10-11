@@ -37,7 +37,7 @@ class KhachHangController extends Controller
       $file = $request->file('Hinh');
       $duoi = $file->getClientOriginalExtension();
       if ($duoi !='jpg' && $duoi !='png' && $duoi !='gif' && $duoi !='tiff' && $duoi !='bmp') {
-        return redirect('them-khachhang')->with('thongbao', 'ban chỉ được nhập jpg, png, gif, tiff, bmp');
+        return redirect('admin/them-khachhang')->with('thongbao', 'ban chỉ được nhập jpg, png, gif, tiff, bmp');
       }
       $name = $file->getClientOriginalName();
       $Hinh = str_random(4) . "_" . $name;
@@ -51,7 +51,7 @@ class KhachHangController extends Controller
       $khachhang->Hinh = "";
     }
     $khachhang->save();
-    return redirect('them-khachhang')->with('thongbao', 'Thêm khách hàng thành công');
+    return redirect('admin/them-khachhang')->with('thongbao', 'Thêm khách hàng thành công');
 
   }
   //------------------End Add-------------
@@ -94,13 +94,13 @@ class KhachHangController extends Controller
       $khachhang->Hinh = $Hinh;
     }
     $khachhang->save();
-    return redirect('sua-khachhang/'.$id)->with('thongbao', 'Sữa khách hàng thành công');
+    return redirect('admin/sua-khachhang/'.$id)->with('thongbao', 'Sữa khách hàng thành công');
 
   }
   //------------------End Edit----------------
   public function getDelete($id) {
     $tintuc = KhachHang::find($id);
     $tintuc->delete();
-    return redirect('danhsach-khachhang')->with('thongbao', 'xóa khách hàng thành công');
+    return redirect('admin/danhsach-khachhang')->with('thongbao', 'xóa khách hàng thành công');
   }
 }

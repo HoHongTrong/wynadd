@@ -1,8 +1,5 @@
 <?php
 
-//Auth::routes();
-
-
 
 Route::get('admin/login','AdminController@getLoginAdmin');
 Route::post('admin/login','AdminController@postloginAdmin');
@@ -10,7 +7,6 @@ Route::get('admin/logout','AdminController@getlogoutAdmin');
 
 
 Route::group(['prefix' => 'admin','middleware'=>'adminLogin'], function () {
-
   //============================== tin tức===============================================
   Route::get('danhsach-tintuc',['as'=>'ds-tintuc','uses'=>'TinTucController@getList']);
 
@@ -21,8 +17,6 @@ Route::group(['prefix' => 'admin','middleware'=>'adminLogin'], function () {
   Route::post('sua-tintuc/{id}',['as'=>'sua-tintuc','uses'=>'TinTucController@postEdit']);
 
   Route::get('xoa-tintuc/{id}',['as'=>'xoa-tintuc','uses'=>'TinTucController@getDelete']);
-
-
 //============================== Slide===============================================
   Route::get('danhsach-slide',['as'=>'ds-slide','uses'=>'SlideController@getList']);
 
@@ -56,7 +50,6 @@ Route::group(['prefix' => 'admin','middleware'=>'adminLogin'], function () {
   Route::get('xoa-admin/{id}',['as'=>'xoa-admin','uses'=>'AdminController@getDelete']);
 
 });
-
 
 //=============================== Fronend =====================================================
 //============================================================================================

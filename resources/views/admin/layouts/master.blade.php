@@ -44,14 +44,18 @@
     <!--main content end-->
 
 </section>
-<!-- container section start -->
 
-<!-- javascripts -->
 {!! Html::script('admin_asset/js/jquery.js') !!}
 {!! Html::script('admin_asset/js/jquery-ui-1.10.4.min.js') !!}
 {!! Html::script('admin_asset/js/jquery-1.8.3.min.js') !!}
 {!! Html::script('admin_asset/js/jquery-ui-1.9.2.custom.min.js') !!}
-{!! Html::script('admin_asset/js/bootstrap.min.js') !!}
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+{!! Html::script('https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js') !!}
+{!! Html::script('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js') !!}
+
+
 {!! Html::script('admin_asset/js/jquery.scrollTo.min.js') !!}
 {!! Html::script('admin_asset/js/jquery.nicescroll.js') !!}
 {!! Html::script('admin_asset/assets/jquery-knob/js/jquery.knob.js') !!}
@@ -88,7 +92,6 @@ $(document).ready(function () {
     }
   });
 });
-
 
   //knob
   $(function() {
@@ -133,8 +136,6 @@ $(document).ready(function () {
       }
     });
   });
-
 </script>
-
 </body>
 </html>

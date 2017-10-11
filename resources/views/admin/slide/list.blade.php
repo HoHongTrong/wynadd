@@ -33,7 +33,7 @@
         <tr class="odd gradeX" align="center">
           <td>{{$sd->id}}</td>
           <td>{{$sd->ten}}</td>
-          <td>{{$sd->noidung}}</td>
+          <td>{!! $sd->noidung !!}</td>
           <td>
             <img width="400px" height="" src="../upload/slide/{{$sd->Hinh}}">
           </td>

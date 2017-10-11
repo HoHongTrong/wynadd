@@ -38,7 +38,7 @@ class SlideController extends Controller {
       $file = $request->file('Hinh');
       $duoi = $file->getClientOriginalExtension();
       if ($duoi !='jpg' && $duoi !='png' && $duoi !='gif' && $duoi !='tiff' && $duoi !='bmp') {
-        return redirect('them-slide')->with('thongbao', 'ban chỉ được nhập jpg, png, gif, tiff, bmp');
+        return redirect('admin/them-slide')->with('thongbao', 'ban chỉ được nhập jpg, png, gif, tiff, bmp');
       }
       $name = $file->getClientOriginalName();
       $Hinh = str_random(4) . "_" . $name;
@@ -52,7 +52,7 @@ class SlideController extends Controller {
       $slide->Hinh = "";
     }
     $slide->save();
-    return redirect('them-slide')->with('thongbao', 'Thêm slide thành công');
+    return redirect('admin/them-slide')->with('thongbao', 'Thêm slide thành công');
 
   }
   //------------------End Add-------------
@@ -95,7 +95,7 @@ class SlideController extends Controller {
       $slide->Hinh = $Hinh;
     }
     $slide->save();
-    return redirect('sua-slide/'.$id)->with('thongbao', 'Sữa slide thành công');
+    return redirect('admin/sua-slide/'.$id)->with('thongbao', 'Sữa slide thành công');
 
   }
   //------------------End Edit----------------
@@ -104,6 +104,6 @@ class SlideController extends Controller {
   public function getDelete($id) {
     $slide = Slide::find($id);
     $slide->delete();
-    return redirect('danhsach-slide')->with('thongbao', 'xóa slide thành công');
+    return redirect('admin/danhsach-slide')->with('thongbao', 'xóa slide thành công');
   }
 }

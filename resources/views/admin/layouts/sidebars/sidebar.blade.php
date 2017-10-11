@@ -2,7 +2,7 @@
   <div id="sidebar"  class="nav-collapse ">
     <ul class="sidebar-menu">
       <li class="active">
-        <a class="" href="index.html">
+        <a class="" href="#">
           <i class="icon_house_alt"></i>
           <span>Dashboard</span>
         </a>
@@ -31,7 +31,7 @@
       </li>
       <li class="sub-menu">
         <a href="javascript:;" class="">
-          <i class="icon_table"></i>
+          <span class="glyphicon glyphicon-user"></span>
           <span>Khách Hàng</span>
           <span class="menu-arrow arrow_carrot-right"></span>
         </a>
@@ -42,7 +42,7 @@
       </li>
       <li class="sub-menu">
         <a href="javascript:;" class="">
-          <i class="icon_documents_alt"></i>
+          <i class="glyphicon glyphicon-king"></i>
           <span>Quản trị Admin</span>
           <span class="menu-arrow arrow_carrot-right"></span>
         </a>

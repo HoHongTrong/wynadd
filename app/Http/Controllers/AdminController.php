@@ -41,13 +41,13 @@ class AdminController extends Controller
     $user->password = bcrypt($request->password);
     $user->quyen = 1;
     $user->save();
-    return redirect('danhsach-admin')->with('thongbao', 'thêm người quản trị thành công');
+    return redirect('admin/danhsach-admin')->with('thongbao', 'thêm người quản trị thành công');
   }
 //======= delete
   public function getDelete($id) {
     $user = User::find($id);
     $user->delete();
-    return redirect('admin/user/list')->with('thongbao', 'xóa user thành công');
+    return redirect('admin/quantri/list')->with('thongbao', 'xóa user thành công');
   }
 
 

@@ -34,7 +34,7 @@
           <td>{{$kh->id}}</td>
           <td>{{$kh->ten}}</td>
           <td>{{$kh->chucvu}}</td>
-          <td>{{$kh->binhluan}}</td>
+          <td>{!!$kh->binhluan!!}</td>
           <td>
             <img width="100px" height="" src="../upload/khachhang/{{$kh->Hinh}}">
           </td>

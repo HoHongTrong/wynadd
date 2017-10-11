@@ -13,20 +13,18 @@ use App\Comment;
 class TinTucController extends Controller {
 
   public function getList() {
-    $tintuc = TinTuc::orderBy('id', 'DESC')->get();//lấy ra id cuối cùng
+    $tintuc = TinTuc::orderBy('id', 'DESC')->get();
     return view('admin.tintuc.list', ['tintuc' => $tintuc]);
   }
-
 //-------------------Add-------------------------
   public function getAdd() {
     return view('admin.tintuc.add');
   }
-
   public function postAdd(Request $request) {
     $this->validate($request,
       [
 
-        'TieuDe' => 'required|min:3|unique:tintucs,tieude',/*unique:TinTuc,TieuDe tên bảng,trường*/
+        'TieuDe' => 'required|min:3|unique:tintucs,tieude',
         'TomTat' =>'required',
         'NoiDung' =>'required',
       ],
@@ -48,14 +46,14 @@ class TinTucController extends Controller {
       $duoi = $file->getClientOriginalExtension();
       if ($duoi !='jpg' && $duoi !='png' && $duoi != 'gif' && $duoi != 'jpeg' )
       {
-        return redirect('them-tintuc')->with('thongbao', 'ban chỉ được nhập hình jpg,png,gif,jpeg');
+        return redirect('admin/them-tintuc')->with('thongbao', 'ban chỉ được nhập hình jpg,png,gif,jpeg');
       }
-      $name = $file->getClientOriginalName();//lấy tên hình
-      $Hinh = str_random(4) . "_" . $name;//đặt tên hình
+      $name = $file->getClientOriginalName();
+      $Hinh = str_random(4) . "_" . $name;
       while (file_exists("upload/tintuc/" . $Hinh)) {
         $Hinh = str_random(4) . "_" . $name;
       }
-      $file->move("upload/tintuc", $Hinh);//lưu hình
+      $file->move("upload/tintuc", $Hinh);
       $tintuc->Hinh = $Hinh;
     }
     else {
@@ -63,7 +61,7 @@ class TinTucController extends Controller {
     }
     $tintuc->save();
 
-    return redirect('them-tintuc')->with('thongbao', 'thêm tin tức thành công');
+    return redirect('admin/them-tintuc')->with('thongbao', 'thêm tin tức thành công');
   }
   //------------------End Add-------------
 
@@ -98,7 +96,7 @@ class TinTucController extends Controller {
       $duoi = $file->getClientOriginalExtension();
       if ($duoi !='jpg' && $duoi !='png' && $duoi !='gif' && $duoi !='tiff' && $duoi !='bmp')
       {
-        return redirect('sua-tintuc')->with('thongbao', 'ban chỉ được nhập jpg, png, gif, tiff, bmp');
+        return redirect('admin/sua-tintuc')->with('thongbao', 'ban chỉ được nhập jpg, png, gif, tiff, bmp');
       }
       $name = $file->getClientOriginalName();
       $Hinh = str_random(4) . "_" . $name;
@@ -110,7 +108,7 @@ class TinTucController extends Controller {
       $tintuc->Hinh = $Hinh;
     }
     $tintuc->save();
-    return redirect('sua-tintuc/'.$id)->with('thongbao', 'sữa tin tức thành công');
+    return redirect('admin/sua-tintuc/'.$id)->with('thongbao', 'sữa tin tức thành công');
   }
   //------------------End Edit----------------
 
@@ -118,6 +116,6 @@ class TinTucController extends Controller {
   public function getDelete($id) {
     $tintuc = TinTuc::find($id);
     $tintuc->delete();
-    return redirect('danhsach-tintuc')->with('thongbao', 'xóa tin tức thành công');
+    return redirect('admin/danhsach-tintuc')->with('thongbao', 'xóa tin tức thành công');
   }
 }

@@ -36,7 +36,7 @@
                 <p>{{$tt->tieude}}</p>
                 <img width="100px" height="100px" src="../upload/tintuc/{{$tt->Hinh}}"/>
               </td>
-              <td>{{$tt->tomtat}}</td>
+              <td>{!! $tt->tomtat !!}</td>
               <td>{{$tt->soluotxem}}</td>
               <td>
                 @if($tt->noibat == 0)

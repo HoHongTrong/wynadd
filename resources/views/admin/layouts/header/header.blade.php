@@ -24,7 +24,7 @@
     <!-- notificatoin dropdown start-->
     <ul class="nav pull-right top-menu">
 
-      <!-- task notificatoin start -->
+{{--      <!-- task notificatoin start -->
       <li id="task_notificatoin_bar" class="dropdown">
         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
           <i class="icon-task-l"></i>
@@ -220,13 +220,13 @@
         </ul>
       </li>
       <!-- alert notification end-->
-      <!-- user login dropdown start-->
+      <!-- user login dropdown start-->--}}
       <li class="dropdown">
         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="profile-ava">
                                 <img alt="" src="img/avatar1_small.jpg">
                             </span>
-          {{--<span class="username">{{ Auth::user()->name }}</span>--}}
+          <span class="username">{{ Auth::user()->name }}</span>
           <b class="caret"></b>
         </a>
         <ul class="dropdown-menu extended logout">
