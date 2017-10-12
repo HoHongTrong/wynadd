@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.2
--- Thời gian đã tạo: Th10 10, 2017 lúc 11:52 AM
+-- Thời gian đã tạo: Th10 12, 2017 lúc 11:12 AM
 -- Phiên bản máy phục vụ: 10.1.24-MariaDB
 -- Phiên bản PHP: 7.1.6
 
@@ -21,6 +21,33 @@ SET time_zone = "+00:00";
 --
 -- Cơ sở dữ liệu: `wynadd`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `khachhangs`
+--
+
+CREATE TABLE `khachhangs` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `ten` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `chucvu` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `binhluan` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Hinh` varchar(191) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `khachhangs`
+--
+
+INSERT INTO `khachhangs` (`id`, `ten`, `chucvu`, `binhluan`, `Hinh`, `created_at`, `updated_at`) VALUES
+(4, 'Nguyễn Ngọc Nhân', 'GD Cty Long Phu Solutions', '<p><span style=\"color:rgb(119, 119, 119); font-family:open sans,arial,fontawesome,sans-serif\">Tôi đã sử dụng dịch vụ thiết kế tại Wynads, tôi thấy thái độ, cách phục vụ và tư vấn rất nhiệt tình. Nếu bạn cần thiết kế logo theo phong thuỷ hãy liên hệ chị Hậu Wynads.</span></p>', 'zNUp_Nguyen-Ngoc-Nhan.jpg', '2017-10-04 19:50:50', '2017-10-04 19:50:50'),
+(5, 'NGUYỄN NGỌC VŨ', 'GD Cty nhôm kính HOWindows', '<p><span style=\"color:rgb(119, 119, 119); font-family:open sans,arial,fontawesome,sans-serif\">Tôi rất hài lòng về thiết kế của WynAds cho thương hiệu HOWINDOWS của tôi, tất cả mọi thiết kế sau này trong công ty tôi đều giao cho WynAds làm và thực sự rất an tâm.</span></p>', 'kLvN_nhom-kinh-hoang-vu.jpg', '2017-10-04 19:55:35', '2017-10-04 19:55:35'),
+(6, 'Mai Quốc Phong', 'Tổng Giám Đốc công ty xây dựng Pthome', '<p><span style=\"color:rgb(119, 119, 119); font-family:open sans,arial,fontawesome,sans-serif\">Tôi rất hài lòng khi WynAds đã góp ý chỉnh sửa logo cho thương hiệu PTHOME của tôi, và mọi thiết kế hình ảnh của công ty tôi đều yên tâm giao cho WynAds.</span></p>', 'JL1T_a-phong.jpg', '2017-10-04 19:58:28', '2017-10-04 19:58:28'),
+(7, 'Nguyễn Thị Liên', 'Phó Giám Đốc Công ty PAN ATLANTIC', '<p><span style=\"color:rgb(119, 119, 119); font-family:open sans,arial,fontawesome,sans-serif\">Tôi rất thích thiết kế mới theo phong thủy của mình, tôi cảm thấy tự tin hẳn lên khi được tư vấn cho thiết kế mới này.</span></p>', 'oNHs_chi-lien.png', '2017-10-04 21:32:31', '2017-10-04 21:32:31'),
+(9, 'Nguyễn Thị Yến Chi', 'Công ty TNHH SX TM DV CÔNG ĐỨC', '<p><span style=\"color:rgb(119, 119, 119); font-family:open sans,arial,fontawesome,sans-serif\">Thiết kế rất ấn tượng và chuyên nghiệp, chúng tôi rất hài lòng.</span></p>', 'OXc1_chi-yen.png', '2017-10-04 23:57:17', '2017-10-04 23:57:17');
 
 -- --------------------------------------------------------
 
@@ -162,11 +189,17 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`, `quyen`) VALUES
 (1, 'HCT', 'trong.hh@tctav.com', '$2y$10$zzhGtIH2TgWljrevox4ncO9by96uJeLPEFb57qpDzWqvg2PLJLvju', NULL, '2017-10-09 21:05:09', '2017-10-09 21:05:09', 1),
-(2, 'trong', 'hohongtrong@gmail.com', '$2y$10$nW8oIJ1Pgd.LYFiL6T/t..O/UgiLciV2AqKM9HeKMdAJ6xRM4yREK', 'x2pT9rrM0h9wn0aTSM0a00fvFPabkBurDFuaCAHf6wHyHayDPMt2byPNJSVh', '2017-10-10 00:15:33', '2017-10-10 00:15:33', 1);
+(2, 'trong', 'hohongtrong@gmail.com', '$2y$10$nW8oIJ1Pgd.LYFiL6T/t..O/UgiLciV2AqKM9HeKMdAJ6xRM4yREK', 'yS2hbREIBJDvryB6YoR2HroOPC73vmHvQTeSiaWC8QhIl69KjYeF97QqVPSC', '2017-10-10 00:15:33', '2017-10-10 00:15:33', 1);
 
 --
 -- Chỉ mục cho các bảng đã đổ
 --
+
+--
+-- Chỉ mục cho bảng `khachhangs`
+--
+ALTER TABLE `khachhangs`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Chỉ mục cho bảng `loaitins`
@@ -216,6 +249,11 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT cho các bảng đã đổ
 --
 
+--
+-- AUTO_INCREMENT cho bảng `khachhangs`
+--
+ALTER TABLE `khachhangs`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT cho bảng `loaitins`
 --
